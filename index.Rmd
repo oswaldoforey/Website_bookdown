@@ -12,22 +12,51 @@ github-repo: openscapes/series
 description: "Plan de la formation au Tidyverse."
 ---
 
-# Welcome {#welcome}
+# Objectifs de la formation
 
-hi
+<div align="justify">
 
-It's possible to create beautiful books for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and Yihui Xie's [bookdown](https://bookdown.org/yihui/bookdown/) and hosting them on [Github](http://github.com). This is pretty new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
+L’objectif pédagogique de cette formation est d’acquérir les bases
+nécessaires du langage Tidyverse du logiciel R pour manipuler ses
+tableaux de données (transformation de variables, fusion de tableaux,
+calculs, etc.) et produire ses graphiques (c’est à dire les étapes de
+l’analyse de données en amont de l’analyse statistique), le tout
+intégralement avec le paquet (package) Tidyverse du logiciel R.
+L’objectif est ainsi de permettre une transition d’Excel à R et au
+Tidyverse, R étant plus adapté et plus puissant pour effectuer ces
+tâches, et le langage du Tidyverse plus facile à apprendre que le
+langage de base de R. <strong>Cette formation s’adresse à des débutant-e-s</strong> est à l’avantage et
+l’originalité d’être <strong>entièrement basée sur le nouveau langage du
+paquet Tidyverse, plus simple à apprendre et manipuler que le langage de
+base de R</strong>, dont la complexité est le frein majeur à son
+utilisation par les néophytes.
 
-This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout. It also parallels a previous tutorial [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/).
+</div>
 
-The best way to learn is to follow along with your own laptop, but all are welcome. We'll spend half the time with the tutorial and half the time for you to work on your own website and get help. If you bring your laptop please do this beforehand: 
+<br>
 
-1. install [RStudio](https://www.rstudio.com/products/rstudio/download/)
-1. create a [GitHub]((http://github.com)) account ([advice](http://happygitwithr.com/github-acct.html))
-1. set up your computer to talk to GitHub
-    - have RStudio linked directly (highly recommended) ([instructions sections 8-14](http://happygitwithr.com/hello-git.html))
-    - or install the [Desktop App](https://desktop.github.com/)
-    - or be familiar with git commands for the command line ([tutorial](https://try.github.io/levels/1/challenges/1))
+A l’issu de la formation, les participant-e-s seront capable de :
+
+- Installer R et RStudio, installer un package, utiliser RStudio
+
+- Charger un tableau de données, vérifier et déclarer les types des
+    variables (dataframe, vecteur, facteur, date)
+
+- Effectuer les manipulation de données les plus courantes: filtrer
+    des lignes, sélectionner des colonnes, faire des opérations
+    (moyennes, écart-types) groupées selon certaines conditions
+    (modalités, traitements, année, etc.), rajouter des colonnes, faire
+    un calcul entre colonnes, compter des observations, fusionner des
+    tableaux de tailles différentes, restructurer un tableau au bon
+    format, corriger des chaines de caractères, séparer les données
+    d’une colonne en plusieurs colonnes
+
+- Faire différents types de graphiques (points, lignes, boxplots,
+    histogrammes) et améliorer l’esthétique pour la publication
+    (couleurs, limites des axes, police, légendes)
+
+- Générer un rapport html, word ou pdf à partir du code et améliorer
+    son esthétique avec Rmarkdown
 
 ----
 
