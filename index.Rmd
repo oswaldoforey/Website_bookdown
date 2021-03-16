@@ -35,6 +35,8 @@ utilisation par les néophytes.
 
 <br>
 
+----
+
 A l’issu de la formation, les participant-e-s seront capable de :
 
 - Installer R et RStudio, installer un package, utiliser RStudio
@@ -60,15 +62,4 @@ A l’issu de la formation, les participant-e-s seront capable de :
 
 ----
 
-
-**Examples:**
-
-We have been using bookdown for the Ocean Health Index:  [**ohi-science.org/data-science-training**](http://ohi-science.org/data-science-training) and Openscapes: [**openscapes.org/series**](https://openscapes.org/series).  
-And R Markdown is much more than books and websites -- here's a [**one-minute video about R Markdown**](http://rmarkdown.rstudio.com/lesson-1.html) to get you excited. 
-
-----
-
-## Learn all about Bookdown
-
-The best way to learn more about bookdown is from Yihui Xie himself. You can read his book [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/) or watch his webinar [introducing bookdown](https://www.rstudio.com/resources/webinars/introducing-bookdown/).
 
