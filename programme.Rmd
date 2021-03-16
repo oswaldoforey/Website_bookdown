@@ -1,0 +1,30 @@
+# Pourquoi utiliser le Tidyverse?
+
+<div align="justify">
+
+Le <a href="https://www.tidyverse.org">Tidyverse</a> est un ensemble de
+paquets (boites à outils contenant des fonctions; packages an anglais)
+rassemblant l’essentiel des outils utilisés quotidiennement pour la
+manipulation de tableaux de données et la création de graphiques, c’est à
+dire de l’analyse de données en amont de l’analyse statistique (fig.3).
+Ces paquets partagent la même logique, grammaire et structure des
+données, les rendant interopérables et facilitant leur prise en
+main.<strong> L’avantage principal du Tidyverse est son nouveau langage,
+conçu pour parler à l’humain avant la machine</strong>(noms de fonctions
+explicites, familles de fonctions au même préfixe, un verbe=une
+fonction).<strong> Il est ainsi plus simple à apprendre que celui du R
+base et facilite la prise en main par des débutant-e-s en
+programmation</strong>. De plus, le Tidyverse est développé par l’équipe
+de RStudio, ce qui apporte l’assurance du maintien et de l’amélioration
+permanente de toutes ses fonctionnalités. Enfin, à travers le package
+ggplot2 et ses nombreux packages satellites (ggpmisc, ggrepel, etc.), il
+offre la possibilité de faire des graphiques de grande qualité.
+
+</div>
+
+<br>
+
+![Tidyverse](img/tidyverse_environnement.png?raw=true "Tidyverse packages")
+
+Figure 3: Les paquets constitutifs du Tidyverse et leur place dans la
+chaine d’analyse de données. <br>
