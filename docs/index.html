@@ -4,24 +4,24 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Making free books with RStudio’s RMarkdown &amp; Bookdown</title>
-  <meta name="description" content="A mini bookdown tutorial book on how to make bookdown books." />
+  <title>Formation au Tidyverse pour l’agroécologie</title>
+  <meta name="description" content="Plan de la formation au Tidyverse." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Making free books with RStudio’s RMarkdown &amp; Bookdown" />
+  <meta property="og:title" content="Formation au Tidyverse pour l’agroécologie" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="A mini bookdown tutorial book on how to make bookdown books." />
+  <meta property="og:description" content="Plan de la formation au Tidyverse." />
   <meta name="github-repo" content="openscapes/series" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Making free books with RStudio’s RMarkdown &amp; Bookdown" />
+  <meta name="twitter:title" content="Formation au Tidyverse pour l’agroécologie" />
   
-  <meta name="twitter:description" content="A mini bookdown tutorial book on how to make bookdown books." />
+  <meta name="twitter:description" content="Plan de la formation au Tidyverse." />
   
 
-<meta name="author" content="Julie Lowndes" />
+<meta name="author" content="Oswaldo Forey" />
 
 
 <meta name="date" content="2021-03-16" />
@@ -72,10 +72,7 @@
 <li><a href="./">Mini Bookdown Tutorial</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learn-all-about-bookdown"><i class="fa fa-check"></i><b>1.1</b> Learn all about Bookdown</a></li>
-</ul></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Objectifs de la formation</a></li>
 <li class="chapter" data-level="2" data-path="setup.html"><a href="setup.html"><i class="fa fa-check"></i><b>2</b> Setting up Bookdown</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="setup.html"><a href="setup.html#get-bookdown-tutorial-going-on-your-local-computer"><i class="fa fa-check"></i><b>2.1</b> Get “bookdown-tutorial” going on your local computer</a></li>
@@ -97,7 +94,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Making free books with RStudio’s RMarkdown &amp; Bookdown</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Formation au Tidyverse pour l’agroécologie</a>
           </h1>
         </div>
 
@@ -106,36 +103,51 @@
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">Making free books with RStudio’s RMarkdown &amp; Bookdown</h1>
-<p class="author"><em>Julie Lowndes</em></p>
+<h1 class="title">Formation au Tidyverse pour l’agroécologie</h1>
+<p class="author"><em>Oswaldo Forey</em></p>
 <p class="date"><em>2021-03-16</em></p>
 </div>
-<div id="welcome" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Welcome</h1>
-<p>hi</p>
-<p>It’s possible to create beautiful books for free using <a href="http://rmarkdown.rstudio.com/">RStudio’s R Markdown</a> and Yihui Xie’s <a href="https://bookdown.org/yihui/bookdown/">bookdown</a> and hosting them on <a href="http://github.com">Github</a>. This is pretty new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.</p>
-<p>This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout. It also parallels a previous tutorial <a href="https://jules32.github.io/rmarkdown-website-tutorial/">Making free websites with RStudio’s R Markdown</a>.</p>
-<p>The best way to learn is to follow along with your own laptop, but all are welcome. We’ll spend half the time with the tutorial and half the time for you to work on your own website and get help. If you bring your laptop please do this beforehand:</p>
-<ol style="list-style-type: decimal">
-<li>install <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a></li>
-<li>create a <a href="(http://github.com)">GitHub</a> account (<a href="http://happygitwithr.com/github-acct.html">advice</a>)</li>
-<li>set up your computer to talk to GitHub
-<ul>
-<li>have RStudio linked directly (highly recommended) (<a href="http://happygitwithr.com/hello-git.html">instructions sections 8-14</a>)</li>
-<li>or install the <a href="https://desktop.github.com/">Desktop App</a></li>
-<li>or be familiar with git commands for the command line (<a href="https://try.github.io/levels/1/challenges/1">tutorial</a>)</li>
-</ul></li>
-</ol>
-<hr />
-<p><strong>Examples:</strong></p>
-<p>We have been using bookdown for the Ocean Health Index: <a href="http://ohi-science.org/data-science-training"><strong>ohi-science.org/data-science-training</strong></a> and Openscapes: <a href="https://openscapes.org/series"><strong>openscapes.org/series</strong></a>.<br />
-And R Markdown is much more than books and websites – here’s a <a href="http://rmarkdown.rstudio.com/lesson-1.html"><strong>one-minute video about R Markdown</strong></a> to get you excited.</p>
-<hr />
-<div id="learn-all-about-bookdown" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Learn all about Bookdown</h2>
-<p>The best way to learn more about bookdown is from Yihui Xie himself. You can read his book <a href="https://bookdown.org/yihui/bookdown/">bookdown: Authoring Books and Technical Documents with R Markdown</a> or watch his webinar <a href="https://www.rstudio.com/resources/webinars/introducing-bookdown/">introducing bookdown</a>.</p>
-
+<div id="objectifs-de-la-formation" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Objectifs de la formation</h1>
+<div align="justify">
+<p>L’objectif pédagogique de cette formation est d’acquérir les bases
+nécessaires du langage Tidyverse du logiciel R pour manipuler ses
+tableaux de données (transformation de variables, fusion de tableaux,
+calculs, etc.) et produire ses graphiques (c’est à dire les étapes de
+l’analyse de données en amont de l’analyse statistique), le tout
+intégralement avec le paquet (package) Tidyverse du logiciel R.
+L’objectif est ainsi de permettre une transition d’Excel à R et au
+Tidyverse, R étant plus adapté et plus puissant pour effectuer ces
+tâches, et le langage du Tidyverse plus facile à apprendre que le
+langage de base de R. <strong>Cette formation s’adresse à des débutant-e-s</strong> est à l’avantage et
+l’originalité d’être <strong>entièrement basée sur le nouveau langage du
+paquet Tidyverse, plus simple à apprendre et manipuler que le langage de
+base de R</strong>, dont la complexité est le frein majeur à son
+utilisation par les néophytes.</p>
 </div>
+<p><br></p>
+<hr />
+<p>A l’issu de la formation, les participant-e-s seront capable de :</p>
+<ul>
+<li><p>Installer R et RStudio, installer un package, utiliser RStudio</p></li>
+<li><p>Charger un tableau de données, vérifier et déclarer les types des
+variables (dataframe, vecteur, facteur, date)</p></li>
+<li><p>Effectuer les manipulation de données les plus courantes: filtrer
+des lignes, sélectionner des colonnes, faire des opérations
+(moyennes, écart-types) groupées selon certaines conditions
+(modalités, traitements, année, etc.), rajouter des colonnes, faire
+un calcul entre colonnes, compter des observations, fusionner des
+tableaux de tailles différentes, restructurer un tableau au bon
+format, corriger des chaines de caractères, séparer les données
+d’une colonne en plusieurs colonnes</p></li>
+<li><p>Faire différents types de graphiques (points, lignes, boxplots,
+histogrammes) et améliorer l’esthétique pour la publication
+(couleurs, limites des axes, police, légendes)</p></li>
+<li><p>Générer un rapport html, word ou pdf à partir du code et améliorer
+son esthétique avec Rmarkdown</p></li>
+</ul>
+<hr />
+
 </div>
             </section>
 
