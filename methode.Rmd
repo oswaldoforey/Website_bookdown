@@ -2,22 +2,22 @@
 
 <div align="justify">
 
-La formation s’appuie sur une méthode et une progression pédagogique adaptée aux débutant-e-s, et des méthodes basée sur les acquis des sciences cognitives en matière d'apprentissage pour renforcer la mémorisation. Elle utilise également l’interface conviviale de RStudio, qui facilite l’utilisation de R, le format Rmarkdown, qui permet de générer automatiquement des rapports (html,word, pdf ou même des diaporamas) à partir du code, des quiz interactifs générés avec le package learnr et une application interactive pour l'autoévaluation des acquis générée avec le package shiny. Grace à tout cela, vous serez étonnés de ce que vous êtes capables de faire à la fin du deuxième jour!
+La formation s’appuie sur une méthode et une progression pédagogique conçues pour les débutant-e-s, et des méthodes basée sur les acquis des sciences cognitives en matière d'apprentissage pour renforcer la mémorisation. Elle utilise l’interface conviviale de RStudio, qui facilite l’utilisation de R, le format Rmarkdown, qui permet de générer automatiquement des rapports (html,word, pdf ou même des diaporamas) à partir du code, des quiz interactifs générés avec le package learnr et une application interactive pour l'autoévaluation des acquis générée avec le package shiny. Grace à tout cela, les participant-e-s sont étonné-e-s de ce qu'ils-elles sont capables de faire à la fin du deuxième jour!
 
 </div>
 
-## Une formation progressive
+## Une formation progressive (fig.4, (A,D))
 
 <div align="justify">
 
 La formation est conçue de manière progressive afin de renforcer l'acquisition des connaissances (nom et usage des fonctions) et des compétences (remobilisation des fonctions dans un contexte différent, logique des opérations) et ainsi de permettre aux participant-e-s d'être à l'aise avec la syntaxe du Tidyverse et ses fonctions de base. Cette progressivité se retrouve à deux niveaux: 
 
-- la réutilisation et l'exploration progressive des différents usages des fonctions de base présentées en début de formation, du plus simple au plus complexe.
+- la réutilisation et l'exploration progressive des différents usages des fonctions de base présentées en début de formation (séquence 2), du plus simple au plus complexe.
 - la complexité croissante des exercices.
 
 </div>
 
-## Un fonctionnement en séquences 
+## Un fonctionnement en séquences (fig.4, (B))
 
 <div align="justify">
 
@@ -29,7 +29,7 @@ La formation est conçue sur la base d'un enchaînement de huit séquences péda
 
 </div>
 
-## Une méthode pédagogique adaptée aux débutant-e-s
+## Une méthode pédagogique adaptée aux débutant-e-s (fig.4, (C))
 
 <div align="justify">
 
@@ -52,7 +52,7 @@ visant à pallier ses problèmes consiste à dédoubler la séquence de démonst
     présente les connaissances et compétences à acquérir en tapant le
     code, pendant que les participant-e-s, sans taper le code, concentrent leur attention sur
     la compréhension des informations, les questions et la prise de
-    note sur un document pdf à imprimer contenant le code tapé par le formateur (ce qui facilite grandement la prise de notes).
+    note sur le document pdf envoyé en amont et à imprimer et contenant le code tapé par le formateur (ce qui facilite grandement la prise de notes).
 
     </div>
 
@@ -72,34 +72,26 @@ une fois les participant-e-s à l’aise avec le langage et sa syntaxe.
 
 </div>
 
-## Des tableaux de données issus de situations de recherche réelles en agroécologie 
+## Des tableaux de données issus de situations de recherche réelles en agroécologie (fig.4, (E)) 
 
 <div align="justify">
 
-En plus d'être progressifs, les tableaux de données des démonstrations et des exercices sont issus de situations de recherche réelles en agroécologie, permettant une immersion dans la formation plus aisée pour les chercheur-e-s en agroécologie, pour qui cette formation est conçue. 
+Les tableaux de données des démonstrations et des exercices sont issus de situations de recherche réelles en agroécologie, permettant une immersion dans la formation plus aisée pour les chercheur-e-s en agroécologie, pour qui cette formation est conçue. 
 
 </div>
 
-## Optimiser l'apprentissage avec les sciences cognitives
+## Optimiser l'apprentissage avec les sciences cognitives (fig.4, (F))
 
 <div align="justify">
 
 Enfin, l’utilisation de certains principes d’apprentissage issus des travaux des sciences
 cognitives permettent de renforcer l’apprentissage : 
 
-- la préparation en amont de la formation par la lecture du plan détaillé de la formation
+- La préparation en amont de la formation par la lecture du plan détaillé de la formation
 envoyé aux participant-e-s
-- l’alternance rapprochée de la théorie et de la pratique
-- le feedback proche (correction immédiate des quiz et exercices)
-- la réactivation mémoire lors des quiz et l'intégration de "goodies"" dans chaque séquence (c'est à dire des fonctions et astuces non couvertes pendant la formation, simplement mentionnées mais écrites dans le document donné aux participant-e-s) que les participant-e-s devront découvrir d'eux-elles mêmes après la formation, afin de les inciter à la réviser pour renforcer la mémorisation.
-
-</div>
-
-## Méthode d’autoévaluation
-
-<div align="justify">
-
-A la fin de la formation, les participant-e-s sont invité-e-s à effectuer leur autoévaluation, qui consiste à produire deux graphiques (et le tableau de synthèse correspondant) présentant leur résultats aux quiz (évaluation de leur effort de mémorisation) et aux exercices (évalaution de leur capacité à remobiliser les connaissances dans des contextes différents), générés automatiquement par une application shiny. Le tableau est alors exportable et le code permettant de générer les graphiques intégré au document rmarkdown de la formation sous forme de goodies.
+- L’alternance rapprochée de la théorie et de la pratique
+- Le feedback proche (correction immédiate des quiz et exercices)
+- La réactivation mémoire (i) lors des quiz, (ii) lors d'un exercice de lecture de code en ouverture du deuxième jour, qui permet de réviser les fonctions de base vues lors de la séquence 2, et (iii) par l'intégration de "goodies" dans chaque séquence (c'est à dire des fonctions et astuces non couvertes pendant la formation, simplement mentionnées mais écrites dans le document donné aux participant-e-s) que les participant-e-s devront découvrir d'eux-elles mêmes après la formation, afin de les inciter à la réviser pour renforcer la mémorisation.
 
 </div>
 
@@ -111,7 +103,22 @@ Figure 4: Les points forts de la formation: une formation progressive (réutilis
 
 <br>
 
+## Méthode d’autoévaluation
+
+<div align="justify">
+
+A la fin de la formation, les participant-e-s sont invité-e-s à effectuer leur autoévaluation, qui consiste à produire deux graphiques (et le tableau de synthèse correspondant) présentant leur résultats aux quiz (évaluation de leur effort de mémorisation) et aux exercices (évaluation de leur capacité à remobiliser les connaissances dans des contextes différents), générés automatiquement par une application shiny. Le tableau est alors exportable et le code permettant de générer les graphiques intégré au document rmarkdown de la formation sous forme de goodies.
+
+</div>
+
 ## Architecture de la formation
+
+La formation repose sur 4 documents utilisés par les participant-e-s (fig. 5):
+
+- Le pdf du script de la formation (hors exercices) à imprimer pour faciliter la prise de note
+- Le modèle Rmarkdown du script de la formation 
+- Un quiz à ouvrir après chaque démonstration 
+- Une application shiny permettant de générer les graphiques de l'autoévaluation et d'exporter le tableau des résultats
 
 ![](img/architecture_formation.png "architecture_formation")
 

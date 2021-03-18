@@ -15,8 +15,7 @@ L’outil utilisé pour le distanciel est zoom, car il s'est montré robuste et
 ces fonctionnalités adaptées à ce type de formations: partages d’écrans,
 possibilité de contrôle à distance des écrans des participant-e-s,
 fenêtre de discussion pour partager du code ou des instructions, tableau
-blanc, outils d'annotation nombreux. Les instructions pour l’installation des logiciels et paquets,
-les données qui servent de support pour la formation, le pdf à imprimer contenant le code de la formation (hors exercices) et servant à prendre des notes, ainsi que le document Rmarkdown servant de modèle pour taper le code lors de la formation sont envoyées à chaque participant-e une semaine avant la formation. Si vous optez pour la
+blanc, outils d'annotation nombreux. Les instructions pour l’installation des logiciels et packages, les données qui servent de support pour la formation, le pdf à imprimer contenant le code de la formation (hors exercices) et servant à prendre des notes, ainsi que le document Rmarkdown servant de modèle pour taper le code lors de la formation sont envoyées à chaque participant-e une semaine avant la formation. Si vous optez pour la
 formule 3 jours, il est possible de laisser passer une semaine entre les
 deux premiers jours et le troisième afin de permettre aux participant-e-s de
 se confronter à l’écriture de leur propre code et ce faisant
@@ -29,9 +28,7 @@ d’identifier les besoins particuliers à leurs analyses.
 <div align="justify">
 
 Oswaldo Forey, titulaire d’un master en écologie et d’un doctorat en
-agronomie, chercheur indépendant en philosophie des sciences appliquées à l'agroécologie et formateur au
-Tidyverse depuis 2018. Je dispense cette formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025), également organisme deformation (enregistré sous le numéro 84260289926. Cet enregistrement ne
-vaut pas agrément de l’Etat). J’ai donné cette formation à 21 reprises, pour un total de 308 heures et de 338 participant-e-s formé-e-s.
+agronomie, chercheur indépendant en philosophie des sciences appliquées à l'agroécologie et formateur au Tidyverse depuis 2018. Je dispense cette formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025), également organisme de formation (enregistré sous le numéro 84260289926. Cet enregistrement ne vaut pas agrément de l’Etat). J’ai donné cette formation à 21 reprises, pour un total de 308 heures et de 338 participant-e-s formé-e-s.
 
 </div>
 

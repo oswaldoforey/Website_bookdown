@@ -1,5 +1,6 @@
 --- 
 title: "Formation au Tidyverse pour l'agroécologie"
+subtitle: "Version 2.1"
 author: "Oswaldo Forey"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -17,24 +18,13 @@ description: "Plan de la formation au Tidyverse."
 <div align="justify">
 
 L’objectif pédagogique de cette formation est d’acquérir les bases
-nécessaires du langage Tidyverse du logiciel R pour manipuler ses
+nécessaires du langage Tidyverse du logiciel R pour devenir autonome dans la manipulation de ses
 tableaux de données (transformation de variables, fusion de tableaux,
-calculs, etc.) et produire ses graphiques (c’est à dire les étapes de
-l’analyse de données en amont de l’analyse statistique), le tout
-intégralement avec le paquet (package) Tidyverse du logiciel R.
-L’objectif est ainsi de permettre une transition d’Excel à R et au
-Tidyverse, R étant plus adapté et plus puissant pour effectuer ces
-tâches, et le langage du Tidyverse plus facile à apprendre que le
-langage de base de R. <strong>Cette formation s’adresse à des débutant-e-s</strong> est à l’avantage et
-l’originalité d’être <strong>entièrement basée sur le nouveau langage du
-paquet Tidyverse, plus simple à apprendre et manipuler que le langage de
-base de R</strong>, dont la complexité est le frein majeur à son
-utilisation par les néophytes.
+calculs groupés, selection de lignes ou de colonnes, etc.) et la production de graphiques (c’est à dire les étapes de l’analyse de données en amont de l’analyse statistique), le tout
+intégralement avec le package Tidyverse du logiciel R.
+L’objectif est ainsi de permettre une transition d’Excel à R et au Tidyverse, R étant plus puissant pour effectuer ces tâches, et le langage du Tidyverse plus adapté et plus facile à apprendre que le langage de base de R. <strong>Cette formation s’adresse à des débutant-e-s</strong> est à l’avantage et l’originalité d’être <strong>entièrement basée sur le nouveau langage du package Tidyverse, conçu spécifiquement pour l'analyse des données et plus simple à apprendre et manipuler que le langage de base de R</strong>, dont la complexité est le frein majeur à son utilisation par les néophytes.
 
 </div>
-
-<br>
-
 ----
 
 A l’issu de la formation, les participant-e-s seront capable de :
@@ -105,16 +95,9 @@ d’en oublier une.
 <div align="justify">
 
 L’utilisation d’Excel rend également difficile la <strong>transparence
-et la reproductibilité</strong>, qui sont au cœur d’une démarche
-d’analyse de données rigoureuse et efficace. En effet, manipuler ses
-données avec Excel implique des opérations invisibles pour une autre
-personne que celle qui les a conduites ainsi que la multiplication des
-feuilles dans lesquelles sont conduites ces opérations, ce qui les rend
-difficilement traçable et reproductible. Dans un contexte de travail en
-équipe et/ou de roulement des salariés, être en mesure de comprendre ce
-qu’à fait un collègue et de reproduire son travail est fondamental, ce
+et la reproductibilité</strong>, qui sont au cœur de la démarche scientifique et de la démarche qualité. En effet, manipuler ses données avec Excel implique des opérations invisibles pour une autre personne que celle qui les a conduites ainsi que la multiplication des feuilles dans lesquelles sont conduites ces opérations, ce qui les rend difficilement traçable et reproductible. Dans un contexte de travail en équipe et/ou de roulement des salariés, être en mesure de comprendre ce qu’à fait un collègue et de reproduire son travail est fondamental, ce
 qui est rendu possible par l’utilisation de R, le code commenté étant
-parfaitement transparent et reproductible. De plus, <strong>les éditeurs d'articles scientifiques commencent à demander de joindre aux articles soumis le code reproductible qui a permis de générer les résultats, que ce soient des tableaux, des graphiques ou des analyses statistiques</strong>, tendance qui va certainement progressivement se généraliser.
+parfaitement transparent et reproductible. De plus, <strong>les éditeurs d'articles scientifiques commencent à demander de joindre aux articles soumis le code reproductible qui a permis de générer les résultats, que ce soient des tableaux, des graphiques ou des analyses statistiques</strong>, tendance qui va progressivement se généraliser. Il devient donc fondamental pour tout-e chercheur-se de manipuler ses données et faire ses graphiques avec un logiciel de programmation.
 
 </div>
 
@@ -122,7 +105,7 @@ parfaitement transparent et reproductible. De plus, <strong>les éditeurs d'arti
 
 <div align="justify">
 
-R est également est un outil polyvalent qui propose aussi bien des outils
+R est également un outil polyvalent qui propose aussi bien des outils
 pour manipuler les données et produire les graphiques que pour effectuer
 les analyses statistiques et réaliser les supports de communication
 (rapport, présentation). Il est alors envisageable d’<strong>utiliser un
@@ -140,7 +123,7 @@ poursuivre son autoformation.
 
 ![](img/exemple_code.png "Exemple code")
 
-Figure 2: Illustration de la place prise par la manipulation des tableaux et la production des graphiques dans l'analyse de données.
+Figure 2: Illustration de la place relative prise par la manipulation des tableaux, la production des graphiques et l'analyse statistiques dans l'analyse de données, avec pour exemple un des graphiques de ma première publication (Forey et. al, 2016).
 <br>
 
 ## Pourquoi utiliser le Tidyverse?
@@ -148,12 +131,12 @@ Figure 2: Illustration de la place prise par la manipulation des tableaux et la 
 <div align="justify">
 
 Le <a href="https://www.tidyverse.org">Tidyverse</a> est un ensemble de
-paquets (boites à outils contenant des fonctions; packages an anglais)
-rassemblant l’essentiel des outils utilisés quotidiennement pour la
+packages (boites à outils contenant des fonctions)
+rassemblant l’essentiel des fonctions utilisées quotidiennement pour la
 manipulation de tableaux de données et la création de graphiques, c’est à
 dire de l’analyse de données en amont de l’analyse statistique (fig.3).
-Ces paquets partagent la même logique, grammaire et structure des
-données, les rendant interopérables et facilitant leur prise en
+Ces packages partagent la même logique, grammaire et structure des
+données (dataframe), les rendant interopérables et facilitant leur prise en
 main.<strong> L’avantage principal du Tidyverse est son nouveau langage,
 conçu pour parler à l’humain avant la machine</strong>(noms de fonctions
 explicites, familles de fonctions au même préfixe, un verbe=une
@@ -162,7 +145,7 @@ base et facilite la prise en main par des débutant-e-s en
 programmation</strong>. De plus, le Tidyverse est développé par l’équipe
 de RStudio, ce qui apporte l’assurance du maintien et de l’amélioration
 permanente de toutes ses fonctionnalités. Enfin, à travers le package
-ggplot2 et ses nombreux packages satellites (ggpmisc, ggrepel, etc.), il
+ggplot2 et ses 81 packages satellites (ggpmisc, ggrepel, etc.), il
 offre la possibilité de faire des graphiques de grande qualité.
 
 </div>
@@ -171,5 +154,4 @@ offre la possibilité de faire des graphiques de grande qualité.
 
 ![Tidyverse](img/tidyverse_environnement.png "Tidyverse packages")
 
-Figure 3: Les paquets constitutifs du Tidyverse et leur place dans la
-chaine d’analyse de données. 
+Figure 3: Les packages constitutifs du Tidyverse et autres packages utilisés pendant la formation (rmarkdown, knitr, shiny) et leur place dans la chaine d’analyse de données. 
