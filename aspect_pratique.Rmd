@@ -28,7 +28,7 @@ d’identifier les besoins particuliers à leurs analyses.
 <div align="justify">
 
 Oswaldo Forey, titulaire d’un master en écologie et d’un doctorat en
-agronomie, chercheur indépendant en philosophie des sciences appliquées à l'agroécologie et formateur au Tidyverse depuis 2018. Je dispense cette formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025), également organisme de formation (enregistré sous le numéro 84260289926. Cet enregistrement ne vaut pas agrément de l’Etat). J’ai donné cette formation à 21 reprises, pour un total de 308 heures et de 338 participant-e-s formé-e-s.
+agronomie, chercheur indépendant en philosophie des sciences appliquée à l'agroécologie et formateur au Tidyverse depuis 2018. Je dispense cette formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025), également organisme de formation (enregistré sous le numéro 84260289926. Cet enregistrement ne vaut pas agrément de l’Etat). J’ai donné cette formation à 21 reprises, pour un total de 308 heures et de 338 participant-e-s formé-e-s.
 
 </div>
 
