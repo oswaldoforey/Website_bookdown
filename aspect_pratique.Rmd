@@ -35,11 +35,13 @@ agronomie, chercheur indépendant en philosophie des sciences appliquée à l'ag
 <br>
 
 ![](img/le_formateur.png)
+<br>
+
 ## Appréciation de la formation
 
 <div align="justify">
 
-La figure 6 montre les résultats des enquêtes de satisfaction issus des 13 sessions pour lesquelles l'évaluation de la formation a été conduite, ce qui est maintenant systématique.
+La figure 6 montre les résultats des enquêtes de satisfaction issus des 13 sessions pour lesquelles l'évaluation de la formation a été conduite. L'évaluation de la formation est maintenant systématique.
 
 </div>
 

@@ -14,5 +14,6 @@ programme-de-la-formation
 aspects-pratiques
 modalités-denseignement
 qui-suis-je
+appréciation-de-la-formation
 coût-de-la-formation
 contacts
