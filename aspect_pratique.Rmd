@@ -35,6 +35,16 @@ agronomie, chercheur indépendant en philosophie des sciences appliquée à l'ag
 <br>
 
 ![](img/le_formateur.png)
+## Appréciation de la formation
+
+<div align="justify">
+
+La figure 6 montre les résultats des enquêtes de satisfaction issus des 13 sessions pour lesquelles l'évaluation de la formation a été conduite, ce qui est maintenant systématique.
+
+</div>
+
+![](img/appreciations_evaluation.png)
+Figure 6: Appréciations de la formation par les participant-e-s pour les 13 évaluations en ma possession par année. Les boites au dessus de chaque session indiquent le nombre de personnes ayant répondu à l'enquête.
 
 ## Coût de la formation
 
