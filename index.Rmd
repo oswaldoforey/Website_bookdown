@@ -1,5 +1,7 @@
 --- 
-title: "Formation au Tidyverse pour les sciences de la vie"
+title: |
+    | Formation au Tidyverse 
+    | pour les Sciences de la Vie
 subtitle: "Version 2.1"
 author: "Oswaldo Forey"
 date: "`r Sys.Date()`"
