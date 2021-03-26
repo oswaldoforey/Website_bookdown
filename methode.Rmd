@@ -73,11 +73,11 @@ une fois les participant-e-s à l’aise avec le langage et sa syntaxe.
 </div>
 
 ## Des tableaux de données issus 
-de situations de recherche réelles en agroécologie (fig.4, (E)) 
+de situations de recherche réelles en sciences de la vie (fig.4, (E)) 
 
 <div align="justify">
 
-Les tableaux de données des démonstrations et des exercices sont issus de situations de recherche réelles en agroécologie, permettant une immersion dans la formation plus aisée pour les chercheur-e-s en agroécologie, pour qui cette formation est conçue. 
+Les tableaux de données des démonstrations et des exercices sont issus de situations de recherche réelles en écologie et agronomie, permettant une immersion dans la formation plus aisée pour les chercheur-e-s en sciences de la vie, pour qui cette formation est conçue. 
 
 </div>
 
@@ -100,7 +100,7 @@ envoyé aux participant-e-s
 
 ![](img/tableau_methode.png "tableau_methode")
 
-Figure 4: Les points forts de la formation: (A) une formation progressive (réutilisation et exploration progressive des fonctions de la séquence 2 et (D) exercices de plus en plus longs et complexes ), (B) des séquences enchainant théorie/quiz/exercices pour renforcer l'apprentissage, (C) une méthode pédagogique adaptées aux débutant-e-s, (E) des tableaux issus de situations réelles de recherche en agroécologie, et (F) un ensemble de méthodes et outils pour renforcer la mémorisation. 
+Figure 4: Les points forts de la formation: (A) une formation progressive (réutilisation et exploration progressive des fonctions de la séquence 2 et (D) exercices de plus en plus longs et complexes ), (B) des séquences enchainant théorie/quiz/exercices pour renforcer l'apprentissage, (C) une méthode pédagogique adaptées aux débutant-e-s, (E) des tableaux issus de situations réelles de recherche en sciences de la vie, et (F) un ensemble de méthodes et outils pour renforcer la mémorisation. 
 
 <br>
 
