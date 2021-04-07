@@ -30,7 +30,8 @@ formation. Si vous optez pour la formule 3 jours, il est possible de
 laisser passer une semaine entre les deux premiers jours et le troisième
 afin de permettre aux participant-e-s de se confronter à l'écriture de
 leur propre code et ce faisant d'identifier les besoins particuliers à
-leurs analyses.
+leurs analyses. Les horaires sont les suivants pour chaque jour :
+9h00-12h30 le matin et 13h30 - 17h00 l'après-midi.
 :::
 
 ## Qui suis-je?
@@ -43,7 +44,7 @@ cette formation au sein de ma micro-entreprise (n°SIRET: 499 165 215
 00025), également organisme de formation (enregistré sous le numéro
 84260289926. Cet enregistrement ne vaut pas agrément de l'Etat). J'ai
 donné cette formation à 23 reprises, à un public de doctorant-e-s
-(Collège Coctoral de l'Université de Montpellier, Université de
+(Collège Doctoral de l'Université de Montpellier, Université de
 Perpignan, Collège Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s
 (INRAE PACA, GRAB) pour un total de 359 participant-e-s formé-e-s.
 :::
