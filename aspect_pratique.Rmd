@@ -26,12 +26,16 @@ support pour la formation, le pdf à imprimer contenant le code de la
 formation (hors exercices) et servant à prendre des notes, ainsi que le
 document Rmarkdown servant de modèle pour taper le code lors de la
 formation sont envoyées à chaque participant-e une semaine avant la
-formation. Si vous optez pour la formule 3 jours, il est possible de
-laisser passer une semaine entre les deux premiers jours et le troisième
-afin de permettre aux participant-e-s de se confronter à l'écriture de
-leur propre code et ce faisant d'identifier les besoins particuliers à
-leurs analyses. Les horaires sont les suivants pour chaque jour :
-9h00-12h30 le matin et 13h30 - 17h00 l'après-midi.
+formation.
+
+Si vous optez pour la formule 3 jours, il est possible de laisser passer
+une semaine entre les deux premiers jours et le troisième afin de
+permettre aux participant-e-s de se confronter à l'écriture de leur
+propre code et ce faisant d'identifier les besoins particuliers à leurs
+analyses.
+
+Les horaires sont les suivants pour chaque jour : 9h00-12h30 le matin et
+13h30 - 17h00 l'après-midi.
 :::
 
 ## Qui suis-je?
