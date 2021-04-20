@@ -24,7 +24,7 @@ La formation est conçue de manière progressive afin de renforcer l'acquisition
 La formation est conçue sur la base d'un enchaînement de séquences pédagogiques, chaque séquence portant sur une thématique et étant découpée en trois étapes :
 
 - une démonstration, pendant lequel le formateur présente les connaissances et compétences à acquérir en tapant le code correspondant.
-- un quiz de 4 à 6 questions conçues pour renforcer la mémorisation et faciliter l'exercice.
+- un quiz de 5 questions conçues pour renforcer la mémorisation et faciliter l'exercice.
 - un ou plusieurs exercice(s) permettant de remobiliser dans un contexte différent les connaissances vues pendant la démonstration.
 
 </div>

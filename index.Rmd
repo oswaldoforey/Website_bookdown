@@ -2,7 +2,7 @@
 title: |
     | Formation au Tidyverse 
     | pour les Sciences de la Vie
-subtitle: "Version 2.1"
+subtitle: "Version 2.3"
 author: "Oswaldo Forey"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -61,7 +61,8 @@ capable de :
     chaines de caractères, réorganiser les niveaux d'un facteur
 
 -   Faire différents types de graphiques (points, lignes, boxplots,
-    histogrammes) et améliorer l'esthétique pour la publication    (couleurs, limites des axes, police, légendes, etc.)
+    histogrammes) et améliorer l'esthétique pour la publication
+    (couleurs, limites des axes, police, légendes, etc.)
 
 -   Générer un rapport html, word ou pdf à partir du code et améliorer
     son esthétique avec Rmarkdown
