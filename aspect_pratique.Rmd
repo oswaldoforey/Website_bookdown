@@ -51,13 +51,35 @@ donné cette formation à 23 reprises, à un public de doctorant-e-s
 (Collège Doctoral de l'Université de Montpellier, Université de
 Perpignan, Collège Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s
 (INRAE PACA, GRAB) pour un total de 359 participant-e-s formé-e-s.
+
+::: {align="justify"}
+Oswaldo Forey, titulaire d'un master en écologie et d'un doctorat en
+agronomie, formateur au Tidyverse depuis 2018. Je dispense cette
+formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025),
+également organisme de formation (enregistré sous le numéro 84260289926.
+Cet enregistrement ne vaut pas agrément de l'Etat). J'ai donné cette
+formation à 24 reprises, à un public de doctorant-e-s (Collège Doctoral
+de l'Université de Montpellier, Université de Perpignan, Collège
+Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s (INRAE PACA, GRAB)
+pour un total de 372 participant-e-s formé-e-s.
+
+Je suis également analyste de données indépendant, et propose mes
+services (manipulation de données, production de graphiques et bientôt
+analyses statistiques avec le package tidymodels) dans le cadre de
+projets de recherche en agroécologie (CASDAR, ANR, projets européens,
+etc.). A mes heures perdues, je conduis des recherche en philosophie des
+sciences appliquée à l'agroécologie, sur les questions de l'utilisation
+des "lois" de l'écologie et des styles de raisonnement scientifiques
+(Crombie, 1981) pour la création d'une méthode générique de conception
+d'agroécosystèmes.
+:::
 :::
 
 <br>
 
 ![](img/le_formateur_high_res.png) <br>
 
-## Appréciation de la formation
+## Résultats des sessions précédentes
 
 ::: {align="justify"}
 La figure 6 montre les résultats des enquêtes de satisfaction issus des

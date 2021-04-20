@@ -24,7 +24,7 @@
 <meta name="author" content="Oswaldo Forey" />
 
 
-<meta name="date" content="2021-04-07" />
+<meta name="date" content="2021-04-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   
 <link rel="prev" href="méthode-pédagogique-et-architecture-de-la-formation.html"/>
 <link rel="next" href="aspects-pratiques.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -93,7 +93,7 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#modalités-denseignement"><i class="fa fa-check"></i><b>4.1</b> Modalités d’enseignement</a></li>
 <li class="chapter" data-level="4.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#qui-suis-je"><i class="fa fa-check"></i><b>4.2</b> Qui suis-je?</a></li>
-<li class="chapter" data-level="4.3" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#appréciation-de-la-formation"><i class="fa fa-check"></i><b>4.3</b> Appréciation de la formation</a></li>
+<li class="chapter" data-level="4.3" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#résultats-des-sessions-précédentes"><i class="fa fa-check"></i><b>4.3</b> Résultats des sessions précédentes</a></li>
 <li class="chapter" data-level="4.4" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#coût-de-la-formation"><i class="fa fa-check"></i><b>4.4</b> Coût de la formation</a></li>
 <li class="chapter" data-level="4.5" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#contacts"><i class="fa fa-check"></i><b>4.5</b> Contacts</a></li>
 </ul></li>
@@ -121,13 +121,20 @@ pour les Sciences de la Vie</div></a>
 <div id="programme-de-la-formation" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Programme de la formation</h1>
 <div align="justify">
-<p>La formation se décline en deux formules, sur deux jours (14 heures) ou sur trois jours (21 heures), la formule trois jours étant conçue pour être personnalisée et répondre ainsi aux besoins propres de la structure cliente, en proposant aux participant-e-s de travailler sur leurs données propres et sur des fonctions répondant à leurs besoins.</p>
+<div align="justify">
+<p>La formation se décline pour l’instant en deux formules:</p>
+<ul>
+<li><p>La formule deux jours, soit 14 heures, conçue pour les débutant-e-s, et qui permet d’acquérir les bases du Tidyverse en couvrant les fonctions les plus courantes des manipulations de tableaux et d’amélioration de graphiques</p></li>
+<li><p>La formule trois jours, soit 21 heures, également conçue pour les débutant-e-s, et qui vient renforcer la formule deux jours en allouant plus de temps pour couvrir et compléter les bases, et qui est systématiquement demandée par les participant-e-s à la fin de la formule deux jours</p></li>
+</ul>
+<p>Une quatrième journée de perfectionnement est en cours de construction, et viendra compléter les trois premières journées en ajoutant d’autres fonctions du Tidyverse pour la manipulation de données, la production automatisée de nombreux graphiques/tableaux en masse (fonction map()) et la programmation (créer ses propres fonctions avec le Tidyverse), ainsi que l’analyse statistiques avec le package et la démarche Tidymodels, qui permet de conduire des analyses statistiques avec le langage du Tidyverse. Si cette journée vous intéresse déjà, sollicitez moi, cela m’encouragera à finir sa préparation…!</p>
+</div>
 </div>
 <p><br></p>
 <table>
 <colgroup>
-<col width="49%" />
 <col width="50%" />
+<col width="49%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -137,24 +144,20 @@ pour les Sciences de la Vie</div></a>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Séquence 1: RStudio et bases de R</strong> <br>- L’interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d’objet, les fonctions, les types d’objets<br>- Exercice 1: création d’objets, manipulation, création d’un tableau de données</td>
-<td><strong>Séquence 5: les tableaux de données complexes</strong><br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types<br>- Exercice 5: sélection de valeurs selon conditions, graphique complexe</td>
+<td><strong>Séquence 1: RStudio et bases de R</strong> <br>- L’interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d’objet, les fonctions, les types d’objets</td>
+<td><strong>Réactivation mémoire</strong> <br>- Exercice de lecture de code de la séquence 2 pour réviser les fonctions de base</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 2: les 2 packages de base du Tidyverse</strong><br>- La syntaxe d’un graphique simple avec ggplot2<br>- La syntaxe et les fonctions de base de dplyr pour manipuler les tableaux<br>- Exercice 2: selectionner des colonnes, faire une moyenne groupée par traitement, visualiser les moyennes</td>
-<td><strong>Séquence 6: l’amélioration des graphiques</strong><br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)<br>- Exercice 6: mise en forme d’un graphique <br><br></td>
+<td><strong>Séquence 2: les 2 packages de base du Tidyverse</strong><br>- La syntaxe d’un graphique simple avec ggplot2<br>- La syntaxe et les fonctions de base de dplyr pour manipuler les tableaux</td>
+<td><strong>Séquence 5: les tableaux de données complexes</strong><br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 3: vision d’ensemble de la chaine du traitement de données</strong><br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données, visualiser les données transformées<br>- Exercice 3: reproduire ces opérations avec des données différentes</td>
-<td><strong>Séquence 7: Restructurer et nettoyer ses tableaux</strong><br>- Les deux fonctions essentielles de tidyr pour restructurer ses tableaux (passer du format large à long et vice-versa)<br>- Exercice 7: restructurer un tableau de données et nettoyer des chaines de caractères (avec stringr) avant visualisation</td>
+<td><strong>Séquence 3: vision d’ensemble de la chaine du traitement de données</strong><br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données, visualiser les données transformées</td>
+<td><strong>Séquence 6: l’amélioration des graphiques</strong><br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 4: fusion de tableaux et format rdata</strong><br>- Pourquoi et comment fabriquer un tableau au format rdata<br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)<br>- Exercice 4: fusionner deux tableaux de taille différente et faire un rdata</td>
-<td><strong>Séquence 8: Exercice de synthèse en autonomie</strong><br>Données issues de conditions réelles: restructurer un tableau, nettoyer des chaines de caractères, fusionner deux tableaux, visualiser les données brutes, calculer des moyennes et les écarts-types, visualiser les moyennes et écarts-types</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><strong>Auto-évaluation</strong> Remplissage du document d’autoévaluation (application shiny) permettant de visualiser sous forme de graphiques ses résultats aux quiz et aux exercices</td>
+<td><strong>Séquence 4: fusion de tableaux et format rdata</strong><br>- Pourquoi et comment fabriquer un tableau au format rdata<br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)</td>
+<td><strong>Séquence 7: Restructurer et nettoyer ses tableaux</strong><br>- Les deux fonctions essentielles de tidyr pour restructurer ses tableaux (passer du format large à long et vice-versa)</td>
 </tr>
 </tbody>
 </table>
@@ -170,22 +173,44 @@ pour les Sciences de la Vie</div></a>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Séquence 9a: Travail sur ses propres données </strong><br>- Mise en application sur ses propres données avec accompagnement du formateur</td>
+<td><strong>Séquence 8: Exercice de synthèse en autonomie</strong><br>Restructurer un tableau, nettoyer des chaines de caractères, fusionner deux tableaux, visualiser les données brutes, calculer des moyennes et les écarts-types, visualiser les moyennes et écarts-types</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 9b: Les différents types de graphiques (séquence en autonomie pour ceux-celles qui n’ont pas de données)</strong><br>- Les classiques: graphiques en barres, boxplot, violinplot, droite de régression<br>- Histogrammes des comptages et des fréquences<br>- Bonus: les matrices de paires avec un des nombreux packages satellites de ggplot2 (ggpairs), faire parler rapidement ses données avec la souris et le package esquisse<br>- Exercice 9: petits exercices consistant à trouver la meilleure manière de représenter différents jeux de données</td>
+<td><strong>Séquence 9: Les différents types de graphiques</strong> <br>- Les classiques: graphiques en barres, boxplot, violinplot, droite de régression<br>- Histogrammes des comptages et des fréquences</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 10: Produire de nombreux graphiques ou tableaux de manière automatisée</strong><br>- Introduction à la création d’une fonction<br>- présentation de la fonction map() permettant d’appliquer la même opération (p.ex.faire un graphique) à un ensemble de modalités<br>- Exercice 10: produire des graphiques de manière automatisée</td>
+<td><strong>Séquence 10: Améliorer ses rapports générés par RMarkdown</strong><br>- Modifier l’apparence du texte (styles, taille, position)<br>- Inclure des tableaux dans le rapport (package kableExtra)<br>- Inclure des légendes aux graphiques<br>- Exporter les graphiques automatiquement<br>- Créer un sommaire <br>- Exporter au format pdf</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 11: Améliorer ses rapports générés par RMarkdown</strong><br>- Modifier l’apparence du texte (styles, taille, position)<br>- Inclure des tableaux dans le rapport<br>- Inclure des légendes aux graphiques<br>- Exporter les graphiques automatiquement<br>- Créer un sommaire<br>Exercice 11: générer et améliorer un premier rapport sur ses données</td>
+<td><strong>Séquence 11: Auto-évaluation</strong><br>- Remplissage du document d’autoévaluation (application shiny) permettant de visualiser sous forme de graphiques ses résultats aux quiz et aux exercices<br>- Reproduire le graphique à partir du tableau exporté</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 12: Autres fonctions utiles pour manipuler ses données</strong><br>- Compter les observations<br>- Sélectionner les individus selon leurs valeurs (les plus fortes, moins fortes, etc.)<br>- Recoder des variables, changer l’ordre des colonnes, harmoniser l’écriture des variables (majuscules)<br>- Généraliser les if_else<br>- Exercice 11: petits exercices pour appliquer ces fonctions</td>
+<td><strong>Séquence 13: Rappel mémoire et cartographie des connaissances</strong>:<br>- Rappel mémoire individuel des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind)</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Jour 4 - Perfectionnement - EN CONSTRUCTION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Séquence 1: Autres fonctions du Tidyverse pour manipuler ses tableaux</strong><br></td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 13: Rappel mémoire et autoévaluation</strong>:<br>- Rappel mémoire individuel des connaissances acquises et cartographie des connaissances communes (carte mentale), autoévaluation des résultats aux quiz et aux exercices</td>
+<td><strong>Séquence 2: Produire des graphiques/tableaux en masse avec la fonction map()</strong> <br></td>
+</tr>
+<tr class="odd">
+<td><strong>Séquence 3: Créer ses propres fonctions avec le Tidyverse</strong> <br></td>
+</tr>
+<tr class="even">
+<td><strong>Séquence 4: Les analyses statistiques avec le package Tidymodels</strong> <br></td>
 </tr>
 </tbody>
 </table>
