@@ -14,6 +14,8 @@ programme-de-la-formation
 aspects-pratiques
 modalités-denseignement
 qui-suis-je
-résultats-des-sessions-précédentes
+evaluations-des-sessions-précédentes
+satisfaction-des-participant-e-s
+atteinte-des-objectifs
 coût-de-la-formation
 contacts

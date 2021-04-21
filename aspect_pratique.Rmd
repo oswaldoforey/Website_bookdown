@@ -74,18 +74,38 @@ d'agroécosystèmes.
 
 ![](img/le_formateur_high_res.png) <br>
 
-## Résultats des sessions précédentes
+## Evaluations des sessions précédentes
+
+### Satisfaction des participant-e-s
 
 ::: {align="justify"}
 La figure 6 montre les résultats des enquêtes de satisfaction issus des
-13 sessions pour lesquelles l'évaluation de la formation a été conduite.
-L'évaluation de la formation est maintenant systématique.
+17 sessions pour lesquelles l'évaluation de la formation a été conduite
+(quelques sessions n'avaient été évaluées les deux premières années;
+l'évaluation de la formation est maintenant systématique).
 :::
 
-![](img/appreciations_evaluation.png) Figure 6: Appréciations de la
-formation par les participant-e-s pour les 13 évaluations en ma
+![Figure 6: Résultats des évaluations de la satisfaction globale des
+participant-e-s. ED_LR= école doctorale languedoc-Roussillon,
+CD_UM=collège doctoral de l'Université de
+Montpellier.](img/appreciations_evaluation.png) Figure 6: Appréciations
+de la formation par les participant-e-s pour les 13 évaluations en ma
 possession par année. Les boites au dessus de chaque session indiquent
 le nombre de personnes ayant répondu à l'enquête.
+
+### Atteinte des objectifs
+
+La figure 7 montre les résultats des participant-e-s aux quiz et
+exercices de chaque séquence. Ces résultats sont issus de
+l'autoévaluation par les participant-e-s en fin de deuxième journée et
+indiquent évaluent l'efficacité de la mémorisation (quiz) et les
+capacités à remobiliser les connaissances dans un autre contexte
+(exercices). L'absence de notes dans les exercices 7.2 et 8 (le 7.1
+étant le 7) indique que la durée de deux jours de formation est un peu
+courte, et qu'un troisième jour est nécessaire...
+
+![Figure 7: Résultats des participant-e-s aux quiz et exercices de
+chaque séquence.](img/graphique_autoevaluation.png)
 
 ## Coût de la formation
 
