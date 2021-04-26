@@ -1,4 +1,4 @@
-# Programme de la formation
+# Programme et horaires
 
 ::: {align="justify"}
 ::: {align="justify"}
@@ -9,6 +9,10 @@ La formation se décline pour l'instant en deux formules:
 -   La formule trois jours, soit 21 heures, également conçue pour les débutant-e-s, et qui vient renforcer la formule deux jours en allouant plus de temps pour couvrir et compléter les bases, et qui est systématiquement demandée par les participant-e-s à la fin de la formule deux jours
 
 Une quatrième journée de perfectionnement est en cours de construction, et viendra compléter les trois premières journées en ajoutant d'autres fonctions du Tidyverse pour la manipulation de données, la production automatisée de nombreux graphiques/tableaux en masse (fonction map()) et la programmation (créer ses propres fonctions avec le Tidyverse), ainsi que l'analyse statistiques avec le package et la démarche Tidymodels, qui permet de conduire des analyses statistiques avec le langage du Tidyverse. Si cette journée vous intéresse déjà, sollicitez moi, cela m'encouragera à finir sa préparation...!
+
+Pour toutes les formules, il est possible de laisser passer un ou plusieurs jours entre chaque journée.
+
+Les horaires sont les suivants pour chaque jour : 9h00-12h30 le matin et 13h30 - 17h00 l'après-midi.
 :::
 :::
 
