@@ -90,9 +90,7 @@ suivant/s, la démonstration ne se faisant ensuite qu'en un seul temps
 une fois les participant-e-s à l'aise avec le langage et sa syntaxe.
 :::
 
-## Des tableaux de données issus
-
-de situations de recherche réelles en sciences de la vie (fig.4, (E))
+## Des tableaux de données issus de situations de recherche réelles en sciences de la vie (fig.4, (E))
 
 ::: {align="justify"}
 Les tableaux de données des démonstrations et des exercices sont issus
@@ -127,7 +125,7 @@ travaux des sciences cognitives permettent de renforcer l'apprentissage
 
 ![](img/tableau_methode.png "tableau_methode")
 
-Figure 4: Les points forts de la formation: (A) une formation
+Figure 4: Synthèse de la méthode pédagogique : (A) une formation
 progressive (réutilisation et exploration progressive des fonctions de
 la séquence 2 et (D) exercices de plus en plus longs et complexes ), (B)
 des séquences enchainant théorie/quiz/exercices pour renforcer
@@ -146,10 +144,10 @@ effectuer leur autoévaluation, qui consiste à produire deux graphiques
 (et le tableau de synthèse correspondant) présentant leur résultats aux
 quiz (évaluation de leur effort de mémorisation) et aux exercices
 (évaluation de leur capacité à remobiliser les connaissances dans des
-contextes différents), générés automatiquement par une application
-shiny. Le tableau est alors exportable et le code permettant de générer
-les graphiques intégré au document rmarkdown de la formation sous forme
-de goodies.
+contextes différents), générés automatiquement par une application shiny
+(RStudio, package shiny). Le tableau est alors exportable et le code
+permettant de générer les graphiques intégré au document rmarkdown de la
+formation sous forme de goodies.
 :::
 
 ## Architecture de la formation
@@ -160,9 +158,11 @@ La formation repose sur 4 documents utilisés par les participant-e-s
 -   Le pdf du script de la formation (hors exercices) à imprimer pour
     faciliter la prise de note
 -   Le modèle Rmarkdown du script de la formation
--   Un quiz à ouvrir après chaque démonstration
--   Une application shiny permettant de générer les graphiques de
-    l'autoévaluation et d'exporter le tableau des résultats
+-   Un quiz à ouvrir après chaque démonstration (RStudio, package
+    learnr)
+-   Une application shiny (RStudio, package shiny) permettant de générer
+    les graphiques de l'autoévaluation et d'exporter le tableau des
+    résultats
 
 ![](img/architecture_formation.png "architecture_formation")
 
