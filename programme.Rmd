@@ -1,75 +1,244 @@
-# Programme et horaires
+# Programmes, pré-requis et objectifs pédagogiques
 
 ::: {align="justify"}
 ::: {align="justify"}
-La formation se décline pour l'instant en deux formules:
+<div>
 
--   La formule deux jours, soit 14 heures, conçue pour les débutant-e-s, et qui permet d'acquérir les bases du Tidyverse en couvrant les fonctions les plus courantes des manipulations de tableaux et d'amélioration de graphiques
+Quatre modules de formation sont proposés pour l'instant, deux autres étant en construction et devraient être disponibles au premier semestre 2022:
 
--   La formule trois jours, soit 21 heures, également conçue pour les débutant-e-s, et qui vient renforcer la formule deux jours en allouant plus de temps pour couvrir et compléter les bases, et qui est systématiquement demandée par les participant-e-s à la fin de la formule deux jours
+</div>
 
-Une quatrième journée de perfectionnement est en cours de construction, et viendra compléter les trois premières journées en ajoutant d'autres fonctions du Tidyverse pour la manipulation de données, la production automatisée de nombreux graphiques/tableaux en masse (fonction map()) et la programmation (créer ses propres fonctions avec le Tidyverse), ainsi que l'analyse statistiques avec le package et la démarche Tidymodels, qui permet de conduire des analyses statistiques avec le langage du Tidyverse. Si cette journée vous intéresse déjà, sollicitez moi, cela m'encouragera à finir sa préparation...!
+-   Les modules **M_Deb_1 et M_Deb_2**, conçus comme une seule formation de deux jours et **à destination des** **débutant-e-s**, permettant d'acquérir les bases du Tidyverse en couvrant les fonctions les plus courantes pour la manipulations de tableaux et la production de graphiques
 
-Pour toutes les formules, il est possible de laisser passer un ou plusieurs jours entre chaque journée.
+-   Le module **M_Inter**, **à destination des personnes utilisant déjà R et/ou RStudio**, couvrant le même programme que les modules M_Deb_1 et M_Deb_2 mais en un seul jour.
 
-Les horaires sont les suivants pour chaque jour : 9h00-12h30 le matin et 13h30 - 17h00 l'après-midi.
+-   Le module **M_Conf**, **à destination des personnes ayant suivis les modules M_deb_2 ou M_inter**, ou ayant les bases en Tidyverse et Rmarkdown, couvrant des fonctions plus avancées du Tidyverse et de RMarkdown
+
+**EN CONSTRUCTION**
+
+-   Le module **M_Stat** , **à destination des personnes ayant suivis les modules M_deb_2 ou M_inter**, ou ayant les bases en Tidyverse et Rmarkdown, couvrant l'utilisation du package Tidymodels pour l'analyse statistique selon la philosophie du Tidyverse
+
+-   Le module M_Shiny, **à destination des personnes ayant suivis les modules M_deb_2 ou M_inter**, ou ayant les bases en Tidyverse et Rmarkdown, couvrant l'utilisation du package shiny pour créer des applications interactives permettant d'analyser ses données
+
+::: {align="justify"}
+Le tableau ci-dessous synthétise pour chacun des 5 modules le public cible, les pré-requis, la durée et le contenu. Le détail des programmes de chaque module se trouve dans les sections suivantes. Les tarifs se trouvent dans la section [4.2 Tarifs](#tarifs)
+
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| Module                                | Public cible      | Pré-requis                                                                                                                                                                                         | Durée     | Contenu                                                                         |
++=======================================+===================+====================================================================================================================================================================================================+===========+=================================================================================+
+| [M_Deb_1](#M_Deb_1)                   | débutant          | aucun                                                                                                                                                                                              | 7h        | bases du Tidyverse pour la manipulation de tableaux la production de graphiques |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| [M_Deb_2](#M_Deb_2)                   | débutant          | suivi du M_Deb_1                                                                                                                                                                                   | 7h        | idem                                                                            |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| [M_Inter](#M_Inter)                   | intermédiaire     | connaissances du fonctionnement de RStudio, assignation d'objets, classes d'objet (vecteurs numériques, vecteurs de caractères, dataframe), type d'objets (facteurs, date), importation de tableau | 7h        | idem                                                                            |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| [M_Conf](#M_Conf)                     | confirmé          | suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown                                                                                                            | 7h        | Fonctions avancées du Tidyverse et de Rmarkdown                                 |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| [M_stats](#M_stats) (EN CONSTRUCTION) | confirmé          | suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown                                                                                                            | 3h30      | Statistiques en mode Tidyverse                                                  |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
+| [M_Shiny](#M_Shiny) (EN CONSTRUCTION) | confirmé          | suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown                                                                                                            | 3h30      | Créer une application interactive pour explorer ses données                     |
++---------------------------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------------------------------------------------------------------+
 :::
 :::
 
 <br>
+:::
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Jour 1                                                                                                                                                                                                                         |
-+================================================================================================================================================================================================================================+
-| **Séquence 1: RStudio et bases de R** <br>- L'interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d'objet, les fonctions, les types d'objets                                                              |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 2: les 2 packages de base du Tidyverse**<br>- La syntaxe d'un graphique simple avec ggplot2<br>- La syntaxe et les fonctions de base de dplyr pour manipuler les tableaux                                           |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 3: vision d'ensemble de la chaine du traitement de données**<br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données, visualiser les données transformées |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 4: fusion de tableaux et format rdata**<br>- Pourquoi et comment fabriquer un tableau au format rdata<br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)                             |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+## M_deb_1 {#M_Deb_1}
 
-<br>
+### Pré-requis
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Jour 2                                                                                                                                                                                                                   |
-+==========================================================================================================================================================================================================================+
-| **Réactivation mémoire** <br>- Exercice de lecture de code de la séquence 2 pour réviser les fonctions de base                                                                                                           |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 5: les tableaux de données complexes**<br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 6: l'amélioration des graphiques**<br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 7: Restructurer et nettoyer ses tableaux**<br>- Les deux fonctions essentielles de tidyr pour restructurer ses tableaux (passer du format large à long et vice-versa)                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Aucun, ce module s'adresse à des débutant-e-s.
 
-<br>
+### Programme
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Jour 3                                                                                                                                                                                                                                                                                                                               |
-+======================================================================================================================================================================================================================================================================================================================================+
-| **Séquence 8: Exercice de synthèse en autonomie**<br>Restructurer un tableau, nettoyer des chaines de caractères, fusionner deux tableaux, visualiser les données brutes, calculer des moyennes et les écarts-types, visualiser les moyennes et écarts-types                                                                         |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 9: Les différents types de graphiques** <br>- Les classiques: graphiques en barres, boxplot, violinplot, droite de régression<br>- Histogrammes des comptages et des fréquences                                                                                                                                           |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 10: Améliorer ses rapports générés par RMarkdown**<br>- Modifier l'apparence du texte (styles, taille, position)<br>- Inclure des tableaux dans le rapport (package kableExtra)<br>- Inclure des légendes aux graphiques<br>- Exporter les graphiques automatiquement<br>- Créer un sommaire <br>- Exporter au format pdf |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 11: Auto-évaluation**<br>- Remplissage du document d'autoévaluation (application shiny) permettant de visualiser sous forme de graphiques ses résultats aux quiz et aux exercices<br>- Reproduire le graphique à partir du tableau exporté                                                                                |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Séquence 13: Rappel mémoire et cartographie des connaissances**:<br>- Rappel mémoire individuel des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind)                                                                                                                       |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| M_Deb_1                                                                                                                                                                                                                                                                                                                                                  |
++==========================================================================================================================================================================================================================================================================================================================================================+
+| **Séquence 1 : RStudio, bases de R et Rmarkdown** <br>- L'interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d'objet et l'assignation, les fonctions, les classes (vecteurs numériques, vecteurs de caractères, dataframe) d'objets et les types de variables (facteur, date)<br>- Création et utilisation d'un document Rmarkdown |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 2 : la syntaxe du Tidyverse**<br>- La syntaxe d'un graphique avec le package ggplot2<br>- La syntaxe de la manipulation de tableaux et la manipulation de colonnes avec le package dplyr                                                                                                                                                      |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 3 : vision d'ensemble de la chaine du traitement de données**<br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données (calculs de moyennes, sélection de lignes), visualiser les données transformées                                                                               |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 4 : les tableaux de données à nombreuses variables**<br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types                                                                                                                   |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Deb_1** , les participant-e-s seront capable de :
+
+-   Installer R et RStudio, installer un package, utiliser les quatre fenêtres de RStudio, créer des vecteurs numériques et de caractères et des tableaux de données
+
+-   Charger un tableau de données, vérifier et déclarer les types des variables (facteur, date)
+
+-   Effectuer les manipulation de données les plus courantes: filtrer des lignes, sélectionner des colonnes, faire des opérations (moyennes, écart-types) groupées selon certaines conditions (modalités, traitements, année, etc.), rajouter des colonnes, faire un calcul entre colonnes
+
+-   Améliorer l'esthétique des graphiques pour la publication (couleurs, axes, police, légendes)
+
+-   Générer avec Rmarkdown un rapport html ou word à partir du code
 
 <br>
 
-+---------------------------------------------------------------------------------------+
-| Jour 4 - Perfectionnement - EN CONSTRUCTION                                           |
-+=======================================================================================+
-| **Séquence 1: Autres fonctions du Tidyverse pour manipuler ses tableaux**<br>         |
-+---------------------------------------------------------------------------------------+
-| **Séquence 2: Produire des graphiques/tableaux en masse avec la fonction map()** <br> |
-+---------------------------------------------------------------------------------------+
-| **Séquence 3: Créer ses propres fonctions avec le Tidyverse** <br>                    |
-+---------------------------------------------------------------------------------------+
-| **Séquence 4: Les analyses statistiques avec le package Tidymodels** <br>             |
-+---------------------------------------------------------------------------------------+
+## M_deb_2 {#M_Deb_2}
+
+### Pré-requis
+
+Suivi du M_Deb_1
+
+### Programme
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| M_Deb_2                                                                                                                                                                                                                                                 |
++=========================================================================================================================================================================================================================================================+
+| **Rappels du M_Deb_1** <br>- Exercices de lecture de code pour réviser les fonctions de base                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 5 : l'amélioration des graphiques**<br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)                                                                                       |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 6 : fusion de tableaux** <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)                                                                                                                                  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 7 : restructurer et nettoyer ses tableaux**<br>- Restructurer ses tableaux (passer du format large à long) avec le package tidyr<br>- Nettoyer une chaine de caractère (package stringr) et organiser l'ordre des facteurs (package forcats) |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Réactivation mémoire et cartographie des connaissances**<br>- Réactivation mémoire individuelle des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind) des modules M_Deb_1 et M_Deb_2           |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Evaluations de la formation :**<br>- autoévaluation individuelle de l'atteinte des objectifs (graphiques de réussite aux quiz et exercices<br>- évaluation de satisfaction de la formation (questionnaire en ligne)                                   |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Deb_2**, les participant-e-s seront capable de :
+
+-   Choisir et faire différents types de graphiques (points, lignes, boxplots, histogrammes, camembert)
+
+-   Fusionner des tableaux de tailles différentes
+
+-   Restructurer les tableaux au bon format, corriger des chaines de caractères, réorganiser les niveaux d'un facteur
+
+-   Générer avec Rmarkdown un rapport html ou word à partir du code
+
+<br>
+
+## M_Inter {#M_Inter}
+
+### Pré-requis
+
+Connaissances du fonctionnement de RStudio, assignation d'objets, classes d'objet (vecteurs numériques, vecteurs de caractères, dataframe), type d'objets (facteurs, date), importation de tableau
+
+### Programme
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| M_Inter                                                                                                                                                                                                                                                                    |
++============================================================================================================================================================================================================================================================================+
+| **Séquence 1 : la syntaxe du Tidyverse**<br>- La syntaxe d'un graphique avec le package ggplot2<br>- La syntaxe de la manipulation de tableaux et la manipulation de colonnes avec le package dplyr                                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 2 : vision d'ensemble de la chaine du traitement de données**<br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données (calculs de moyennes, sélection de lignes), visualiser les données transformées |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 3 : les tableaux de données à nombreuses variables**<br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types                                     |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 4 : fusion de tableaux** <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)                                                                                                                                                     |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 5 : l'amélioration des graphiques**<br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)                                                                                                          |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Séquence 6 : restructurer et nettoyer ses tableaux**<br>- Restructurer ses tableaux (passer du format large à long) avec le package tidyr<br>- Nettoyer une chaine de caractère (package stringr) et organiser l'ordre des facteurs (package forcats)                    |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Réactivation mémoire et cartographie des connaissances**<br>- Réactivation mémoire individuelle des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind) des modules M_Deb_1 et M_Deb_2                              |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Evaluations de la formation :**<br>- autoévaluation individuelle de l'atteinte des objectifs (graphiques de réussite aux quiz et exercices<br>- évaluation de satisfaction de la formation (questionnaire en ligne)                                                      |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Inter**, les participant-e-s seront capable de :
+
+-   Effectuer les manipulation de données les plus courantes: filtrer des lignes, sélectionner des colonnes, faire des opérations (moyennes, écart-types) groupées selon certaines conditions (modalités, traitements, année, etc.), rajouter des colonnes, faire un calcul entre colonnes
+-   Améliorer l'esthétique des graphiques pour la publication (couleurs, limites des axes, police, légendes, etc.)
+-   Générer avec Rmarkdown un rapport html ou word à partir du code
+-   Choisir et faire différents types de graphiques (points, lignes, boxplots, histogrammes, camembert)
+-   Fusionner des tableaux de tailles différentes
+-   Restructurer les tableaux au bon format, corriger des chaines de caractères, réorganiser les niveaux d'un facteur
+
+<br>
+
+## M_Conf {#M_Conf}
+
+### Pré-requis
+
+Suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown
+
+### Programme
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| M_Conf                                                                                                                                                                                                                                                                                                           |   |
++==================================================================================================================================================================================================================================================================================================================+===+
+| **Séquence 1 : exercice de révision/positionnement en autonomie**<br>Restructurer un tableau, nettoyer des chaines de caractères, fusionner deux tableaux, visualiser les données brutes, calculer des moyennes et les écarts-types, visualiser les moyennes et écarts-types                                     |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Séquence 2 : les différents types de graphiques** <br>- Les classiques: graphiques en barres, boxplot, violinplot, droite de régression, camembert<br>- Histogrammes des comptages et des fréquences<br>- Autres graphiques à la demande (en amont du module) des participant-e-s                              |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Séquence 3 :** **autres fonctions du Tidyverse pour manipuler ses tableaux** <br>- compter les observations, séparer ou unir des colonnes, manipuler les NA, manipuler les facteurs, manipuler les chaines de caractères<br>- Autres fonctions à la demande (en amont du module) des participant-e-s           |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Séquence 4 : produire des graphiques/tableaux en masse**<br>- Utilisation de la fonction map() du package purrr pour appliquer la même fonction à plusieurs variables et produire des séries de graphiques ou de tableaux (en remplacement d'une boucle)                                                       |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Séquence 5 : améliorer ses rapports générés par RMarkdown**<br>- Modifier l'apparence du texte (styles, taille, position)<br>- Inclure des tableaux dans le rapport <br>- Inclure des légendes aux graphiques<br>- Exporter les graphiques automatiquement<br>- Créer un sommaire <br>- Exporter au format pdf |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Réactivation mémoire et cartographie des connaissances**<br>- Réactivation mémoire individuel des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind)                                                                                                     |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+| **Evaluations de la formation :**<br>- autoévaluation individuelle de l'atteinte des objectifs (graphiques de réussite aux quiz et exercices<br>- évaluation de satisfaction de la formation (questionnaire en ligne)                                                                                            |   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---+
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Conf**, les participant-e-s seront capable de :
+
+-   Faire le choix du type de graphique et faire différents types de graphiques (boxplot, violinplot, camembert, histogrammes des fréquences, etc.)
+
+-   Compter les observations, séparer ou unir des colonnes, manipuler les NA, manipuler les facteurs, manipuler les chaines de caractères
+
+-   Appliquer une fonction à plusieurs variables pour générer des tableaux ou des graphiques en masse
+
+-   Générer avec Rmarkdown un rapport au format html, word et pdf à partir du code, y inclure un sommaire, des tableaux et des légendes de graphiques, améliorer son esthétique (apparence du texte (styles, taille, position)
+
+<br>
+
+## M_Stats {#M_Stats}
+
+(EN CONSTRUCTION)
+
+### Pré-requis
+
+Suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown
+
+### Programme
+
+| M_Stats - EN CONSTRUCTION                                                 |
+|---------------------------------------------------------------------------|
+| **Séquence 1: Les analyses statistiques avec le package Tidymodels** <br> |
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Stats**, les participant-e-s seront capable de :
+
+-   Conduire des analyses statistiques avec le package Tidymodels
+
+<br>
+
+## M_Shiny {#M_Shiny}
+
+(EN CONSTRUCTION)
+
+### Pré-requis
+
+Suivi du M_Deb_2 ou du M_Inter, ou connaissances des bases du Tidyverse et de Rmarkdown
+
+### Programme
+
++----------------------------------------------------------------------------+
+| M_Shiny - EN CONSTRUCTION                                                  |
++============================================================================+
+| **Séquence 1: Créer une application shiny pour explorer des données** <br> |
++----------------------------------------------------------------------------+
+
+### Objectifs pédagogiques
+
+A l'issu du module **M_Shiny**, les participant-e-s seront capable de :
+
+-   Créer leur propre application interactive pour explorer leurs données

@@ -1,8 +1,8 @@
 ---
 title: |
-    | Formation au Tidyverse 
-    | pour les Sciences de la Vie
-subtitle: "Version 2.3"
+    | Cycle de formations pour l'analyse de données  
+    | avec RStudio, le Tidyverse et Rmarkdown
+subtitle: "Version 5.0.0"
 author: "Oswaldo Forey"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -18,54 +18,33 @@ editor_options:
     wrap: 72
 ---
 
-# Objectifs de la formation
+# Objectifs
 
 ::: {align="justify"}
 <div>
 
-L'objectif pédagogique de cette formation est d'acquérir les bases
-nécessaires du langage Tidyverse du logiciel R pour devenir autonome
-dans la manipulation de ses tableaux de données (transformation de
-variables, fusion de tableaux, calculs groupés, selection de lignes ou
-de colonnes, etc.) et la production de graphiques (c'est à dire les
-étapes de l'analyse de données en amont de l'analyse statistique).
-L'objectif opérationnel est de permettre une transition d'Excel à R pour
-manipuler ses données et faire ses graphiques, et ainsi d'améliorer la
-facilité, la transparence et la reproductibilité de ces opérations.
-<strong>Cette formation s'adresse à des débutant-e-s</strong> est à
-l'avantage et l'originalité d'être <strong>entièrement basée sur le
-package Tidyverse, conçu spécifiquement pour la manipulation de données
-et la production de graphiques, et dont le langage plus simple à
-apprendre et manipuler que le langage de base de R</strong>, facilite
-grandement son apprentissage et son utilisation.
+L'objectif de ce cycle de formations est de permettre aux chercheur-se-s
+en sciences expérimentales d'acquérir les bases du fonctionnement du
+logiciel RStudio, du Tidyverse et de Rmarkdown pour l'analyse de données
+(manipulation de tableaux, production de graphiques, démarche de
+l'analyse statistique) et la production de rapports. L'objectif
+opérationnel est de permettre la production de résultats publiables avec
+un logiciel de programmation et un outil unique, afin d'appliquer une
+démarche qualité (transparence et reproductibilité) à l'analyse de
+données et d'être en mesure de fournir aux éditeurs le code
+reproductible qui a généré les résultats à publier. Ce cycle de
+formations se concentre principalement sur les étapes de l'analyse de
+données en amont de l'analyse statistique (manipulation de tableaux,
+graphiques) et a l'originalité d'être <strong>entièrement basée sur le
+package et langage Tidyverse, conçu spécifiquement pour la manipulation
+de données et la production de graphiques </strong> et de proposer une
+méthode originale adaptée aux ([débutant-e-s en programmation](#mpd)).
+La démarche d'analyse statistique est cependant abordée à travers un
+module dédié au package Tidymodels, présentant la démarche de l'analyse
+statistique selon la philosophie du Tidyverse.
 
 </div>
 :::
-
-------------------------------------------------------------------------
-
-A l'issu de la formation, les participant-e-s seront (entre autres)
-capable de :
-
--   Installer R et RStudio, installer un package, utiliser RStudio
-
--   Charger un tableau de données, vérifier et déclarer les types des
-    variables (dataframe, vecteur, facteur, date)
-
--   Effectuer les manipulation de données les plus courantes: filtrer
-    des lignes, sélectionner des colonnes, faire des opérations
-    (moyennes, écart-types) groupées selon certaines conditions
-    (modalités, traitements, année, etc.), rajouter des colonnes, faire
-    un calcul entre colonnes, fusionner des tableaux de tailles
-    différentes, restructurer un tableau au bon format, corriger des
-    chaines de caractères, réorganiser les niveaux d'un facteur
-
--   Faire différents types de graphiques (points, lignes, boxplots,
-    histogrammes) et améliorer l'esthétique pour la publication
-    (couleurs, limites des axes, police, légendes, etc.)
-
--   Générer un rapport html, word ou pdf à partir du code et améliorer
-    son esthétique avec Rmarkdown
 
 ------------------------------------------------------------------------
 
@@ -153,28 +132,37 @@ première publication (Forey et. al, 2016). <br>
 
 ::: {align="justify"}
 Le <a href="https://www.tidyverse.org">Tidyverse</a> est un ensemble de
-packages (boites à outils contenant des fonctions) rassemblant
-l'essentiel des fonctions utilisées quotidiennement pour la manipulation
-de tableaux de données et la création de graphiques, c'est à dire de
-l'analyse de données en amont de l'analyse statistique (fig.3). Ces
-packages partagent la même logique, grammaire et structure des données
-(dataframe), les rendant interopérables et facilitant leur prise en
-main.<strong> L'avantage principal du Tidyverse est son nouveau langage,
-conçu pour parler à l'humain avant la machine</strong>(noms de fonctions
-explicites, familles de fonctions au même préfixe, un verbe=une
-fonction).<strong> Il est ainsi plus simple à apprendre que celui du R
-base et facilite la prise en main par des débutant-e-s en
-programmation</strong>. De plus, le Tidyverse est développé par l'équipe
-de RStudio, ce qui apporte l'assurance du maintien et de l'amélioration
-permanente de toutes ses fonctionnalités. Enfin, à travers le package
-ggplot2 et ses 81 packages satellites (ggpmisc, ggrepel, etc.), il offre
-la possibilité de faire des graphiques de grande qualité.
+packages (boites à outils contenant des fonctions) comprenant des
+fonctions permettant la manipulation de tableaux de données et la
+création de graphiques, c'est à dire les étapes de l'analyse de données
+en amont de l'analyse statistique (fig.3). Ces packages partagent la
+même logique, grammaire et structure des données (dataframe), les
+rendant interopérables.<strong>
+
+Les avantages du Tidyverse sont:
+
+-   de proposer dans un seul package l'essentiel des fonctions
+    nécessaires pour la manipulation des tableaux et la production de
+    graphiques
+
+-   d'utiliser une syntaxe conçue pour parler à l'humain avant la
+    machine</strong> (noms de fonctions explicites, familles de
+    fonctions au même préfixe, un verbe=une fonction) <strong> ce qui
+    permet notamment aux débutant-e-s en programmation d'accéder à un
+    outil opérationnel rapidement </strong>
+
+-   d'être développé par l'équipe de RStudio, ce qui apporte l'assurance
+    du maintien et de l'amélioration permanente de toutes ses
+    fonctionnalités
+
+-   de permettre de faire des graphiques de grande qualité à travers le
+    package ggplot2 et ses 81 packages satellites
 :::
 
 <br>
 
-![Tidyverse](img/tidyverse_environnement.png "Tidyverse packages")
+![](img/tidyverse_environnement.png "Tidyverse packages")
 
 Figure 3: Les packages constitutifs du Tidyverse et autres packages
 utilisés pendant la formation (rmarkdown, knitr, shiny) et leur place
-dans la chaine d'analyse de données.
+dans la chaîne d'analyse de données.

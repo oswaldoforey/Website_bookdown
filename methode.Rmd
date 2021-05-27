@@ -7,17 +7,16 @@ editor_options:
 # Méthode pédagogique et architecture de la formation
 
 ::: {align="justify"}
-La formation s'appuie sur une méthode et une progression pédagogique
-conçues pour les débutant-e-s, et des méthodes basée sur les acquis des
-sciences cognitives en matière d'apprentissage pour renforcer la
-mémorisation. Elle utilise l'interface conviviale de RStudio, qui
-facilite l'utilisation de R, le format Rmarkdown, qui permet de générer
-automatiquement des rapports (html,word, pdf ou même des diaporamas) à
-partir du code, des quiz interactifs générés avec le package learnr et
-une application interactive pour l'autoévaluation des acquis générée
-avec le package shiny. Grace à tout cela, les participant-e-s sont
-étonné-e-s de ce qu'ils-elles sont capables de faire à la fin du
-deuxième jour!
+Pour tous les modules, la formation utilise l'interface conviviale de
+RStudio, qui facilite l'utilisation de R et le format Rmarkdown, qui
+permet de générer automatiquement des rapports (html,word, pdf ou même
+des diaporamas) à partir du code. Elle utilise également la même méthode
+pédagogique qui consiste en un enchainement de séquences progressives
+constituées d'un apport théorique, suivi d'un quiz puis d'un exercice et
+mobilise des acquis des sciences cognitives en matière d'apprentissage
+pour renforcer la mémorisation. Pour le module M_Deb_1, il se rajoute à
+cela une méthode pédagogique spécifiquement conçue et éprouvée pour [les
+débutant-e-s](#mpd).
 :::
 
 ## Une formation progressive (fig.4, (A,D))
@@ -36,7 +35,7 @@ progressivité se retrouve à deux niveaux:
 -   la complexité croissante des exercices.
 :::
 
-## Un fonctionnement en séquences (fig.4, (B))
+## Des séquences en trois temps (fig.4, (B))
 
 ::: {align="justify"}
 La formation est conçue sur la base d'un enchaînement de séquences
@@ -52,7 +51,7 @@ découpée en trois étapes :
     contexte différent les connaissances vues pendant la démonstration.
 :::
 
-## Une méthode pédagogique adaptée aux débutant-e-s (fig.4, (C))
+## Une méthode pédagogique adaptée aux débutant-e-s (fig.4, (C)) {#mpd}
 
 ::: {align="justify"}
 Les formations aux logiciels informatiques sont classiquement basées sur
@@ -90,16 +89,7 @@ suivant/s, la démonstration ne se faisant ensuite qu'en un seul temps
 une fois les participant-e-s à l'aise avec le langage et sa syntaxe.
 :::
 
-## Des tableaux de données issus de situations de recherche réelles en sciences de la vie (fig.4, (E))
-
-::: {align="justify"}
-Les tableaux de données des démonstrations et des exercices sont issus
-de situations de recherche réelles en écologie et agronomie, permettant
-une immersion dans la formation plus aisée pour les chercheur-e-s en
-sciences de la vie, pour qui cette formation est conçue.
-:::
-
-## Optimiser l'apprentissage avec les sciences cognitives (fig.4, (F))
+## Optimiser l'apprentissage avec les sciences cognitives (fig.4, (E))
 
 ::: {align="justify"}
 Enfin, l'utilisation de certains principes d'apprentissage issus des
@@ -108,35 +98,50 @@ travaux des sciences cognitives permettent de renforcer l'apprentissage
 
 -   La préparation en amont de la formation par la lecture du plan
     détaillé de la formation envoyé aux participant-e-s
--   L'alternance rapprochée de la théorie et de la pratique
+-   La mise en application systématique et immédiate après chaque apport
+    théorique
 -   Le feedback proche (correction immédiate des quiz et exercices)
--   La réactivation mémoire (i) lors des quiz, (ii) lors d'un exercice
-    de lecture de code en ouverture du deuxième jour, qui permet de
-    réviser les fonctions de base vues lors de la séquence 2, et (iii)
-    par l'intégration de "goodies" dans chaque séquence (c'est à dire
-    des fonctions et astuces non couvertes pendant la formation,
-    simplement mentionnées mais écrites dans le document donné aux
-    participant-e-s) que les participant-e-s devront découvrir
-    d'eux-elles mêmes après la formation, afin de les inciter à la
-    réviser pour renforcer la mémorisation.
+-   La réactivation mémoire (i) lors des quiz, (ii) lors de l'exercice
+    de lecture de code en ouverture du module M_deb_2, qui permet de
+    réviser les fonctions de base du M_deb_1, (iii) la cartographie des
+    connaissances acquises en fin des modules M_deb_2, M_inter et
+    M_conf, et (iv) l'incitation à la reprise expansée de chaque module
+    (idéalement une semaine après le module) par l'intégration de
+    "goodies" dans chaque séquence, qui sont des fonctions et astuces
+    mentionnées mais non couvertes pendant la formation et que les
+    participant-e-s devront découvrir d'eux-elles mêmes après la
+    formation, afin de les inciter à la réviser pour renforcer la
+    mémorisation.
+:::
+
+## Des tableaux de données issus de situations de recherche réelles (fig.4, (F))
+
+::: {align="justify"}
+Les tableaux de données des démonstrations et des exercices sont issus
+de situations de recherche réelles en sciences expérimentales,
+permettant une immersion dans la formation plus aisée pour les
+chercheur-e-s en sciences expérimentales. Pour l'instant les tableaux de
+données sont issus de recherches en sciences de la vie (agronomie et
+écologie), mais il est prévu de pouvoir adapter les tableaux de données
+aux client-e-s (par exemple avec des tableaux plus adaptés aux sciences
+humaines et sociales).
 :::
 
 ## Synthèse de la méthode pédagogique
 
-![](img/tableau_methode.png "tableau_methode")
+![](img/tableau_methodes.png "tableau_methodes")
 
 Figure 4: Synthèse de la méthode pédagogique : (A) une formation
-progressive (réutilisation et exploration progressive des fonctions de
-la séquence 2 et (D) exercices de plus en plus longs et complexes ), (B)
-des séquences enchainant théorie/quiz/exercices pour renforcer
-l'apprentissage, (C) une méthode pédagogique adaptées aux débutant-e-s,
-(E) des tableaux issus de situations réelles de recherche en sciences de
-la vie, et (F) un ensemble de méthodes et outils pour renforcer la
-mémorisation.
+progressive (réutilisation et exploration progressive des fonctions et
+(D) exercices de plus en plus longs et complexes ), (B) des séquences
+enchainant théorie/quiz/exercices pour renforcer l'apprentissage, (C)
+une méthode pédagogique adaptées aux débutant-e-s, (E) un ensemble de
+méthodes et outils pour renforcer la mémorisation et (F) des tableaux
+issus de situations réelles de recherche en sciences expérimentales.
 
 <br>
 
-## Méthode d'autoévaluation
+## Méthode d'évaluation de l'atteinte des objectifs
 
 ::: {align="justify"}
 A la fin de la formation, les participant-e-s sont invité-e-s à
@@ -150,10 +155,10 @@ permettant de générer les graphiques intégré au document rmarkdown de la
 formation sous forme de goodies.
 :::
 
-## Architecture de la formation
+## Architecture
 
-La formation repose sur 4 documents utilisés par les participant-e-s
-(fig. 5):
+Pour chaque module, la formation repose sur 4 documents utilisés par les
+participant-e-s (fig. 5):
 
 -   Le pdf du script de la formation (hors exercices) à imprimer pour
     faciliter la prise de note

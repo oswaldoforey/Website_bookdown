@@ -7,7 +7,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Formation au Tidyverse pour les Sciences de la Vie</a></li>
+        <li><a href="./">Cycle de formations pour l'analyse des données avec RStudio, le Tidyverse et Rmarkdown</a></li>
       after: |
         <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
     edit: https://github.com/jules32/bookdown-tutorial/edit/master/%s
