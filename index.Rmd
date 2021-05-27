@@ -38,7 +38,7 @@ données en amont de l'analyse statistique (manipulation de tableaux,
 graphiques) et a l'originalité d'être <strong>entièrement basée sur le
 package et langage Tidyverse, conçu spécifiquement pour la manipulation
 de données et la production de graphiques </strong> et de proposer une
-méthode originale adaptée aux ([débutant-e-s en programmation](#mpd)).
+méthode originale adaptée aux [débutant-e-s en programmation](#mpd).
 La démarche d'analyse statistique est cependant abordée à travers un
 module dédié au package Tidymodels, présentant la démarche de l'analyse
 statistique selon la philosophie du Tidyverse.
