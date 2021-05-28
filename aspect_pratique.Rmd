@@ -100,7 +100,7 @@ et évaluent l'efficacité de la mémorisation (quiz) et les capacités à
 remobiliser les connaissances dans un autre contexte (exercices).
 
 ![Figure 7: Résultats des participant-e-s aux quiz et exercices de
-chaque séquence. Les points roses avec les barres d'erreurs sont les
+chaque séquence. Les points noirs avec les barres d'erreurs sont les
 moyennes et les écart-types.](img/graphique_autoevaluation.png)
 
 ## Qui suis-je?
