@@ -118,9 +118,10 @@ Université de Perpignan) pour un total de 372 participant-e-s formé-e-s.
 
 Je suis également analyste de données indépendant, et propose mes
 services (manipulation de données, production de graphiques et bientôt
-analyses statistiques avec le package tidymodels) dans le cadre de
-projets de recherche (CASDAR, ANR, projets européens, etc.). A mes
-heures perdues, je conduis des recherche en philosophie des sciences
+analyses statistiques avec le package tidymodels) pour vos données ou
+dans le cadre de projets de recherche (CASDAR, ANR, projets européens, etc.). 
+
+A mes heures perdues, je conduis des recherche en philosophie des sciences
 appliquée à l'agroécologie, sur les questions de l'utilisation des
 "lois" de l'écologie et des styles de raisonnement scientifiques
 (Crombie, 1981) pour la création d'une méthode générique de conception
