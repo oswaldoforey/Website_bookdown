@@ -116,7 +116,7 @@ de l'Université de Montpellier, Université de Perpignan, Collège
 Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s (INRAE PACA, GRAB,
 Université de Perpignan) pour un total de 372 participant-e-s formé-e-s.
 
-Je suis également analyste de données indépendant, et propose mes
+Je suis également analyste de données indépendant (https://oswaldoforey.github.io/Analyste_de_donnees/), et propose mes
 services (manipulation de données, production de graphiques et bientôt
 analyses statistiques avec le package tidymodels) pour vos données ou
 dans le cadre de projets de recherche (CASDAR, ANR, projets européens, etc.). 
