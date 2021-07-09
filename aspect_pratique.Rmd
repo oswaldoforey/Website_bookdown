@@ -61,11 +61,8 @@ proposé après la formation pour accompagner les participant-e-s à
 distance. Les trois premières heures sont offertes, ce qui correspond
 globalement à un échange à distance et la fourniture d'un script pour
 résoudre la problématique, et les heures suivantes sont facturées 30€ de
-l'heure. La procédure de certification qualité Qualiopi de mon organisme
-de formation
-([\<https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation\>](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation){.uri})
-est en cours et sera finalisée à la fin du premier semestre 2021. En
-plus d'un gage de qualité, cette certification permettra la prise en
+l'heure. Mon organisme de formation est certifié Qualiopi,
+([\<https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation\>](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation){.uri}), qui en plus d'un gage de qualité, permet la prise en
 charge du coût de la formation par les OPCO.
 :::
 
@@ -130,7 +127,7 @@ d'agroécosystèmes.
 
 <br>
 
-![](img/le_formateur_high_res.png) <br>
+![](img/le_formateur_low_res.png) <br>
 
 ## Contacts
 

@@ -4,7 +4,9 @@ title: |
     | avec RStudio, le Tidyverse et Rmarkdown
 subtitle: "Version 5.0.0"
 author: "Oswaldo Forey"
-date: "`r Sys.Date()`"
+date: |
+    | `r Sys.Date()`      
+    | ![](img/LogoQualiopi_150dpi.png)
 site: bookdown::bookdown_site
 # output: bookdown::gitbook
 documentclass: book
