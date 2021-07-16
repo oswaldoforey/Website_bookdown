@@ -138,20 +138,20 @@ packages (boites à outils contenant des fonctions) comprenant des
 fonctions permettant la manipulation de tableaux de données et la
 création de graphiques, c'est à dire les étapes de l'analyse de données
 en amont de l'analyse statistique (fig.3). Ces packages partagent la
-même logique, grammaire et structure des données (dataframe), les
-rendant interopérables.<strong>
+même logique, grammaire et structure des données (tableaux de donénes),
+les rendant interopérables.
 
-Les avantages du Tidyverse sont:
+Les avantages du Tidyverse sont :
 
 -   de proposer dans un seul package l'essentiel des fonctions
     nécessaires pour la manipulation des tableaux et la production de
     graphiques
 
 -   d'utiliser une syntaxe conçue pour parler à l'humain avant la
-    machine</strong> (noms de fonctions explicites, familles de
-    fonctions au même préfixe, un verbe=une fonction) <strong> ce qui
-    permet notamment aux débutant-e-s en programmation d'accéder à un
-    outil opérationnel rapidement </strong>
+    machine (noms de fonctions explicites, familles de fonctions au même
+    préfixe, un verbe=une fonction) ce qui permet notamment aux
+    débutant-e-s en programmation d'accéder à un outil opérationnel
+    rapidement
 
 -   d'être développé par l'équipe de RStudio, ce qui apporte l'assurance
     du maintien et de l'amélioration permanente de toutes ses
