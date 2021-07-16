@@ -5,8 +5,8 @@ title: |
 subtitle: "Version 5.0.0"
 author: "Oswaldo Forey"
 date: |
-    | `r Sys.Date()`      
-    | ![](img/LogoQualiopi_150dpi.png)
+    | `r Sys.Date()` 
+    | ![](img/LogoQualiopi_150dpi.png){width="300" height="100"}![](img/logo_datadocke.png){width="100" height="100"}
 site: bookdown::bookdown_site
 # output: bookdown::gitbook
 documentclass: book
