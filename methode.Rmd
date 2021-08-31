@@ -152,7 +152,7 @@ quiz (évaluation de leur effort de mémorisation) et aux exercices
 contextes différents), générés automatiquement par une application shiny
 (RStudio, package shiny). Le tableau est alors exportable et le code
 permettant de générer les graphiques intégré au document rmarkdown de la
-formation sous forme de goodies.
+formation.
 :::
 
 ## Architecture

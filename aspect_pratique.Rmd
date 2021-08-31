@@ -6,37 +6,65 @@ editor_options:
 
 # Aspects pratiques
 
-## Modalités et délai d'accès
+## Modalités et tarifs
 
 ::: {align="justify"}
-::: {align="justify"}
-<div>
+Trois modalités existent à l'heure actuelle :
 
-Tous les modules sont conçus pour être donnés aussi bien en présentiel
-qu'en distanciel, pour un public d'un maximum de 12 personnes, limite
-au-delà de laquelle la qualité de l'accompagnement individuel décroit.
-Ils peuvent se déclinent à la demi-journée avec la possibilité de
-laisser passer un ou plusieurs jours entre chaque demi-journée. Les
-horaires sont les suivants pour chaque demi-journée : 9h00-12h30 le
-matin et 13h30 - 17h00 l'après-midi.
+1.  **Les formations de groupes pour les structures formalisées**
+    (centres de recherche, établissements publics, entreprises,
+    associations, etc.) et pour lesquelles le coût de la formation peut
+    être pris en charge par les OPCO, mon organisme de formation étant
+    certifié Qualiopi
+    ([\<https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation\>](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation){.uri}).
+    Pour cette modalité, les modules peuvent se décliner aussi bien en
+    distanciel qu'en présentiel, pour un public d'un maximum de 12
+    personnes et se dérouler à la journée ou la demi-journée avec la
+    possibilité de laisser passer un ou plusieurs jours entre chaque
+    demi-journée. Les horaires pour chaque demi-journée sont 9h00-12h30
+    le matin et 13h30 - 17h00 l'après-midi. Pour chaque module, le tarif
+    est de 375€ la demi-journée (3h30), à quoi s'ajoutent les frais de
+    déplacement calculés au réel.
 
-En présentiel, la formation nécessite une salle (à fournir par le
-client) équipée d'un vidéoprojecteur et d'une connexion internet, et
-d'un ordinateur par personne. En distanciel, chaque participant-e doit
-se munir de deux écrans (un écran pour visualiser l'enseignement, un
-écran pour taper le code). L'outil utilisé pour le distanciel est zoom,
-car il s'est montré robuste et ces fonctionnalités adaptées à ce type de
-formations: partages d'écrans, possibilité de contrôle à distance des
-écrans des participant-e-s, fenêtre de discussion pour partager du code
-ou des instructions, tableau blanc, outils d'annotation. Les
-instructions pour l'installation des logiciels et packages, les données
-qui servent de support pour la formation, le pdf à imprimer contenant le
-code de la formation (hors exercices) et servant à prendre des notes,
-ainsi que le document Rmarkdown servant de modèle pour taper le code
-lors de la formation sont envoyés à chaque participant-e une semaine
-avant la formation.
+2.  **Les formations de groupes pour les groupes informels**. Pour cette
+    modalité, les modules peuvent se décliner aussi bien en distanciel
+    qu'en présentiel, pour un public d'un maximum de 12 personnes et se
+    dérouler à la journée ou la demi-journée avec la possibilité de
+    laisser passer un ou plusieurs jours entre chaque demi-journée. Les
+    horaires pour chaque demi-journée sont 9h00-12h30 le matin et
+    13h30 - 17h00 l'après-midi. Pour chaque module, le tarif est de 375€
+    la demi-journée (3h30), à quoi s'ajoutent les frais de déplacement
+    calculés au réel **mais le coût est équitablement réparti entre
+    chaque participant**. Ainsi, pour un groupe de 10 personnes, une
+    demi-journée de formation revient à 375/10=37.5€ par personne.
 
-</div>
+3.  **Les formations individuelles personnalisées**. Pour cette
+    modalité, les enseignements sont donnés sous forme de leçons d'1h30
+    et peuvent se décliner aussi bien en distanciel qu'en présentiel.
+    Après une première leçon d'introduction, un plan de formation
+    personnalisé est établi et la fréquence des leçons et les horaires
+    définis d'un commun accord entre l'élève et l'enseignant. Le tarif
+    est de 50€ de l'heure, à quoi s'ajoutent les frais de déplacement
+    calculés au réel.
+
+    Pour tous les modules, les conditions matérielles sont les suivantes
+    :
+
+-   Pour les groupes en présentiel, la formation nécessite une salle (à
+    fournir par le client) équipée d'un vidéoprojecteur et d'une
+    connexion internet, et d'un ordinateur par personne.
+
+-   Pour les groupes et les formations individuelles en distanciel, les
+    participant-e-s doivent se munir de deux écrans (un écran pour
+    visualiser l'enseignement, un écran pour taper le code).
+
+Les instructions pour l'installation des logiciels et packages, les
+données qui servent de support pour la formation, le pdf à imprimer
+contenant le code de la formation (hors exercices) et servant à prendre
+des notes, ainsi que le document Rmarkdown servant de modèle pour taper
+le code lors de la formation sont envoyés à chaque participant-e une
+semaine avant la formation.
+:::
 
 Les personnes en situation de handicap peuvent me contacter afin que
 nous puissions trouver ensemble comment adapter la formation pour
@@ -44,29 +72,8 @@ répondre à leurs besoins.
 
 Le délai d'accès (durée estimée entre la demande du bénéficiaire et le
 début de la prestation) est de 1 à 2 mois.
-:::
-:::
 
-## Tarifs {#tarifs}
-
-::: {align="justify"}
-Pour chaque module, le tarif est de 375€ la demi-journée (3h30), à quoi
-s'ajoutent les frais de déplacement calculés au réel pour les
-interventions à plus de 100km de mon domicile. La formation complète
-pour débutant-e-s comprenant les modules M_Deb_1 et M_Deb_2 coute ainsi
-1500€ hors frais de déplacement, les modules M_Inter et M_conf 750€ hors
-frais de déplacement et les modules M_Stat et M_Shiny (en construction)
-375€ hors frais de déplacement. Un service après-vente est également
-proposé après la formation pour accompagner les participant-e-s à
-distance. Les trois premières heures sont offertes, ce qui correspond
-globalement à un échange à distance et la fourniture d'un script pour
-résoudre la problématique, et les heures suivantes sont facturées 30€ de
-l'heure. Mon organisme de formation est certifié Qualiopi,
-([\<https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation\>](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation){.uri}), qui en plus d'un gage de qualité, permet la prise en
-charge du coût de la formation par les OPCO.
-:::
-
-## Evaluations des sessions précédentes
+## Evaluations des sessions précédentes {#tarifs}
 
 ### Satisfaction des participant-e-s
 
@@ -113,14 +120,16 @@ de l'Université de Montpellier, Université de Perpignan, Collège
 Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s (INRAE PACA, GRAB,
 Université de Perpignan) pour un total de 372 participant-e-s formé-e-s.
 
-Je suis également analyste de données indépendant (https://oswaldoforey.github.io/Analyste_de_donnees/), et propose mes
+Je suis également analyste de données indépendant
+(<https://oswaldoforey.github.io/Analyste_de_donnees/>), et propose mes
 services (manipulation de données, production de graphiques et bientôt
 analyses statistiques avec le package tidymodels) pour vos données ou
-dans le cadre de projets de recherche (CASDAR, ANR, projets européens, etc.). 
+dans le cadre de projets de recherche (CASDAR, ANR, projets européens,
+etc.).
 
-A mes heures perdues, je conduis des recherche en philosophie des sciences
-appliquée à l'agroécologie, sur les questions de l'utilisation des
-"lois" de l'écologie et des styles de raisonnement scientifiques
+A mes heures perdues, je conduis des recherche en philosophie des
+sciences appliquée à l'agroécologie, sur les questions de l'utilisation
+des "lois" de l'écologie et des styles de raisonnement scientifiques
 (Crombie, 1981) pour la création d'une méthode générique de conception
 d'agroécosystèmes.
 :::

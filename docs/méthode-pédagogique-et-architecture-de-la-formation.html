@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>3 Méthode pédagogique et architecture de la formation | series.knit</title>
   <meta name="description" content="Plan de la formation au Tidyverse." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
 
   <meta property="og:title" content="3 Méthode pédagogique et architecture de la formation | series.knit" />
   <meta property="og:type" content="book" />
@@ -33,7 +33,7 @@
 <link rel="prev" href="programmes-pré-requis-et-objectifs-pédagogiques.html"/>
 <link rel="next" href="aspects-pratiques.html"/>
 <script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -131,15 +131,14 @@
 </ul></li>
 <li class="chapter" data-level="4" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html"><i class="fa fa-check"></i><b>4</b> Aspects pratiques</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#modalités-et-délai-daccès"><i class="fa fa-check"></i><b>4.1</b> Modalités et délai d’accès</a></li>
-<li class="chapter" data-level="4.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#tarifs"><i class="fa fa-check"></i><b>4.2</b> Tarifs</a></li>
-<li class="chapter" data-level="4.3" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#evaluations-des-sessions-précédentes"><i class="fa fa-check"></i><b>4.3</b> Evaluations des sessions précédentes</a>
+<li class="chapter" data-level="4.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#modalités-et-tarifs"><i class="fa fa-check"></i><b>4.1</b> Modalités et tarifs</a></li>
+<li class="chapter" data-level="4.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#tarifs"><i class="fa fa-check"></i><b>4.2</b> Evaluations des sessions précédentes</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#satisfaction-des-participant-e-s"><i class="fa fa-check"></i><b>4.3.1</b> Satisfaction des participant-e-s</a></li>
-<li class="chapter" data-level="4.3.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#atteinte-des-objectifs"><i class="fa fa-check"></i><b>4.3.2</b> Atteinte des objectifs</a></li>
+<li class="chapter" data-level="4.2.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#satisfaction-des-participant-e-s"><i class="fa fa-check"></i><b>4.2.1</b> Satisfaction des participant-e-s</a></li>
+<li class="chapter" data-level="4.2.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#atteinte-des-objectifs"><i class="fa fa-check"></i><b>4.2.2</b> Atteinte des objectifs</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#qui-suis-je"><i class="fa fa-check"></i><b>4.4</b> Qui suis-je?</a></li>
-<li class="chapter" data-level="4.5" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#contacts"><i class="fa fa-check"></i><b>4.5</b> Contacts</a></li>
+<li class="chapter" data-level="4.3" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#qui-suis-je"><i class="fa fa-check"></i><b>4.3</b> Qui suis-je?</a></li>
+<li class="chapter" data-level="4.4" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#contacts"><i class="fa fa-check"></i><b>4.4</b> Contacts</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="blank">Published with bookdown</a></li>
@@ -309,7 +308,7 @@ quiz (évaluation de leur effort de mémorisation) et aux exercices
 contextes différents), générés automatiquement par une application shiny
 (RStudio, package shiny). Le tableau est alors exportable et le code
 permettant de générer les graphiques intégré au document rmarkdown de la
-formation sous forme de goodies.</p>
+formation.</p>
 </div>
 </div>
 <div id="architecture" class="section level2" number="3.8">
@@ -391,6 +390,10 @@ gitbook.start({
 "text": null
 },
 "download": ["series.pdf"],
+"search": {
+"engine": "lunr",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
