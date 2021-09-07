@@ -32,7 +32,7 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="méthode-pédagogique-et-architecture-de-la-formation.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -131,8 +131,8 @@
 </ul></li>
 <li class="chapter" data-level="4" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html"><i class="fa fa-check"></i><b>4</b> Aspects pratiques</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#modalités-et-tarifs"><i class="fa fa-check"></i><b>4.1</b> Modalités et tarifs</a></li>
-<li class="chapter" data-level="4.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#tarifs"><i class="fa fa-check"></i><b>4.2</b> Evaluations des sessions précédentes</a>
+<li class="chapter" data-level="4.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#tarifs"><i class="fa fa-check"></i><b>4.1</b> Modalités et tarifs</a></li>
+<li class="chapter" data-level="4.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#evaluations-des-sessions-précédentes"><i class="fa fa-check"></i><b>4.2</b> Evaluations des sessions précédentes</a>
 <ul>
 <li class="chapter" data-level="4.2.1" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#satisfaction-des-participant-e-s"><i class="fa fa-check"></i><b>4.2.1</b> Satisfaction des participant-e-s</a></li>
 <li class="chapter" data-level="4.2.2" data-path="aspects-pratiques.html"><a href="aspects-pratiques.html#atteinte-des-objectifs"><i class="fa fa-check"></i><b>4.2.2</b> Atteinte des objectifs</a></li>
@@ -180,7 +180,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 </ul>
 <div align="justify">
 <p>Le tableau ci-dessous synthétise pour chacun des 5 modules le public cible, les pré-requis, la durée et le contenu. Le détail des programmes de chaque module se trouve dans les sections suivantes. Les tarifs se trouvent dans la section <a href="aspects-pratiques.html#tarifs">4.2 Tarifs</a></p>
-<table>
+<table style="width:100%;">
 <colgroup>
 <col width="11%" />
 <col width="4%" />
@@ -265,7 +265,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Séquence 1 : RStudio, bases de R et Rmarkdown</strong> <br>- L’interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d’objet et l’assignation, les fonctions, les classes (vecteurs numériques, vecteurs de caractères, dataframe) d’objets et les types de variables (facteur, date)<br>- Création et utilisation d’un document Rmarkdown</td>
+<td><strong>Séquence 1 : RStudio, bases de R et Rmarkdown</strong> <br> - L’interface RStudio: les 4 fenêtres, les menus déroulants<br>- La création d’objet et l’assignation, les fonctions, les classes (vecteurs numériques, vecteurs de caractères, dataframe) d’objets et les types de variables (facteur, date)<br>- Création et utilisation d’un document Rmarkdown</td>
 </tr>
 <tr class="even">
 <td><strong>Séquence 2 : la syntaxe du Tidyverse</strong><br>- La syntaxe d’un graphique avec le package ggplot2<br>- La syntaxe de la manipulation de tableaux et la manipulation de colonnes avec le package dplyr</td>
@@ -274,7 +274,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 <td><strong>Séquence 3 : vision d’ensemble de la chaine du traitement de données</strong><br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données (calculs de moyennes, sélection de lignes), visualiser les données transformées</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 4 : les tableaux de données à nombreuses variables</strong><br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types</td>
+<td><strong>Séquence 4 : les tableaux de données à nombreuses variables</strong><br>- Gestion de la décimale à l’importation, sélection de lignes, calcul des écart-types <br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types</td>
 </tr>
 </tbody>
 </table>
@@ -286,6 +286,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 <li><p>Installer R et RStudio, installer un package, utiliser les quatre fenêtres de RStudio, créer des vecteurs numériques et de caractères et des tableaux de données</p></li>
 <li><p>Charger un tableau de données, vérifier et déclarer les types des variables (facteur, date)</p></li>
 <li><p>Effectuer les manipulation de données les plus courantes: filtrer des lignes, sélectionner des colonnes, faire des opérations (moyennes, écart-types) groupées selon certaines conditions (modalités, traitements, année, etc.), rajouter des colonnes, faire un calcul entre colonnes</p></li>
+<li><p>Faire un graphique complexe (plusieurs sous graphiques sur le même graphique) avec le package ggplot2</p></li>
 <li><p>Générer avec Rmarkdown un rapport html ou word à partir du code</p></li>
 </ul>
 <p><br></p>
@@ -316,7 +317,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 <td><strong>Séquence 5 : l’amélioration des graphiques</strong><br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 6 : fusion de tableaux</strong> <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)</td>
+<td><strong>Séquence 6 : fusion de tableaux</strong> <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)<br>- renommer les colonnes</td>
 </tr>
 <tr class="even">
 <td><strong>Séquence 7 : restructurer et nettoyer ses tableaux</strong><br>- Restructurer ses tableaux (passer du format large à long) avec le package tidyr<br>- Nettoyer une chaine de caractère (package stringr) et organiser l’ordre des facteurs (package forcats)</td>
@@ -367,19 +368,19 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 <td><strong>Séquence 2 : vision d’ensemble de la chaine du traitement de données</strong><br>- Importer ses données, visualiser les données brutes, modifier le type des variables, transformer les données (calculs de moyennes, sélection de lignes), visualiser les données transformées</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 3 : les tableaux de données à nombreuses variables</strong><br>- Opérations conditionnelles, gestion des données manquantes<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types</td>
+<td><strong>Séquence 3 : les tableaux de données à nombreuses variables</strong><br>- Gestion de la décimale à l’importation, sélection de lignes, calcul des écart-types<br>- Représentation de combinaisons de variables sur le même graphique, représentation des écart-types</td>
 </tr>
 <tr class="even">
-<td><strong>Séquence 4 : fusion de tableaux</strong> <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)</td>
+<td><strong>Séquence 4 : l’amélioration des graphiques</strong><br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)</td>
 </tr>
 <tr class="odd">
-<td><strong>Séquence 5 : l’amélioration des graphiques</strong><br>- Les 4 types de calques de ggplot2 et les différents types de modification (couleurs, axes, légendes, polices)</td>
+<td><strong>Séquence 5 : fusion de tableaux</strong> <br>- Les deux manières essentielles de joindre des tableaux (collés et fusionnés)<br>- renommer les colonnes</td>
 </tr>
 <tr class="even">
 <td><strong>Séquence 6 : restructurer et nettoyer ses tableaux</strong><br>- Restructurer ses tableaux (passer du format large à long) avec le package tidyr<br>- Nettoyer une chaine de caractère (package stringr) et organiser l’ordre des facteurs (package forcats)</td>
 </tr>
 <tr class="odd">
-<td><strong>Réactivation mémoire et cartographie des connaissances</strong><br>- Réactivation mémoire individuelle des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind) des modules M_Deb_1 et M_Deb_2</td>
+<td><strong>Réactivation mémoire et cartographie des connaissances</strong><br>- Réactivation mémoire individuelle des connaissances acquises et cartographie des connaissances communes (carte mentale avec le logiciel xmind)</td>
 </tr>
 <tr class="even">
 <td><strong>Evaluations de la formation :</strong><br>- autoévaluation individuelle de l’atteinte des objectifs (graphiques de réussite aux quiz et exercices<br>- évaluation de satisfaction de la formation (questionnaire en ligne)</td>
@@ -392,6 +393,7 @@ avec RStudio, le Tidyverse et Rmarkdown</div></a>
 <p>A l’issu du module <strong>M_Inter</strong>, les participant-e-s seront capable de :</p>
 <ul>
 <li>Effectuer les manipulation de données les plus courantes: filtrer des lignes, sélectionner des colonnes, faire des opérations (moyennes, écart-types) groupées selon certaines conditions (modalités, traitements, année, etc.), rajouter des colonnes, faire un calcul entre colonnes</li>
+<li>Faire un graphique complexe (plusieurs sous graphiques sur le même graphique) avec le package ggplot2</li>
 <li>Améliorer l’esthétique des graphiques pour la publication (couleurs, limites des axes, police, légendes, etc.)</li>
 <li>Fusionner des tableaux de tailles différentes</li>
 <li>Restructurer les tableaux au bon format, corriger des chaines de caractères, réorganiser les niveaux d’un facteur</li>
