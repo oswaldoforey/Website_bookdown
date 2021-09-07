@@ -6,7 +6,7 @@ editor_options:
 
 # Aspects pratiques
 
-## Modalités et tarifs
+## Modalités et tarifs {#tarifs}
 
 ::: {align="justify"}
 Trois modalités existent à l'heure actuelle :
@@ -73,7 +73,7 @@ répondre à leurs besoins.
 Le délai d'accès (durée estimée entre la demande du bénéficiaire et le
 début de la prestation) est de 1 à 2 mois.
 
-## Evaluations des sessions précédentes {#tarifs}
+## Evaluations des sessions précédentes 
 
 ### Satisfaction des participant-e-s
 
