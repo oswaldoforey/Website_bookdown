@@ -114,10 +114,10 @@ agronomie, formateur au Tidyverse depuis 2018. Je dispense cette
 formation au sein de ma micro-entreprise (n°SIRET: 499 165 215 00025),
 également organisme de formation (enregistré sous le numéro 84260289926.
 Cet enregistrement ne vaut pas agrément de l'Etat). J'ai donné cette
-formation à 24 reprises, à un public de doctorant-e-s (Collège Doctoral
+formation à 28 reprises, à un public de doctorant-e-s (Collège Doctoral
 de l'Université de Montpellier, Université de Perpignan, Collège
 Doctoral Languedoc-Roussillon) et/ou de chercheur-e-s (INRAE PACA, GRAB,
-Université de Perpignan) pour un total de 372 participant-e-s formé-e-s.
+Université de Perpignan) pour un total de 425 participant-e-s formé-e-s.
 
 Je suis également analyste de données indépendant
 (<https://oswaldoforey.github.io/Analyste_de_donnees/>), et propose mes
